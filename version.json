@@ -1,5 +1,5 @@
 {
   "version": "3.4.1",
-  "url": "https://github.com/qformat/indextts2-Multi-launcher/releases/download/v3.4.1/update.zip",
-  "changelog": "1. 测试自动更新功能\n2. 这是一个示例更新包"
+  "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
+  "changelog": "1. 修复已知问题\n2. 优化 UI 体验\n3. 更新自动更新逻辑"
 }
