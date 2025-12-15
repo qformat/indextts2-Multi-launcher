@@ -52,6 +52,7 @@ dist/
 *.egg-info/
 *.spec
 build_app.py
+src/ui/app.py
 src/ui/app.c
 !src/ui/app.cp310-win_amd64.pyd
 pack_update.py
