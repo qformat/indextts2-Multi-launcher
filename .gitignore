@@ -47,6 +47,7 @@ build/
 dist/
 *.egg-info/
 *.spec
+build_app.py
 
 # Configuration (contains paths/keys)
 config.json
