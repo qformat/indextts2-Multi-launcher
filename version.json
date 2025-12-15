@@ -1,5 +1,5 @@
 {
-  "version": "3.4.1",
-  "url": "https://gitee.com/qformat/indextts2-Multi-launcher/raw/master/update.zip",
+  "version": "3.4.0",
+  "url": "https://raw.githubusercontent.com/qformat/indextts2-Multi-launcher/master/update.zip",
   "changelog": "1. 修复已知问题\n2. 优化 UI 体验\n3. 更新自动更新逻辑"
 }

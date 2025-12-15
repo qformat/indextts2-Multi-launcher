@@ -40,9 +40,6 @@ class ConfigManager:
                     self.config["voice_custom_names"] = {}
                 if "save_mp3" not in self.config:
                     self.config["save_mp3"] = False
-                # 新增：更新地址
-                if "update_url" not in self.config:
-                    self.config["update_url"] = "https://gitee.com/qformat/indextts2-Multi-launcher/raw/master/version.json"
             else:
                 # 创建默认配置
                 self.config = {
@@ -70,8 +67,7 @@ class ConfigManager:
                     "generation_history": [],
                     "voice_gender_map": {},
                     "voice_custom_names": {},
-                    "save_mp3": False,
-                    "update_url": "https://gitee.com/qformat/indextts2-Multi-launcher/raw/master/version.json"
+                    "save_mp3": False
                 }
                 self.save_config()
                 print(f"创建默认配置文件: {self.config_file}")
@@ -99,8 +95,7 @@ class ConfigManager:
                 "generation_history": [],
                 "voice_gender_map": {},
                 "voice_custom_names": {},
-                "save_mp3": False,
-                "update_url": "https://gitee.com/qformat/indextts2-Multi-launcher/raw/master/version.json"
+                "save_mp3": False
             }
     
     def save_config(self):
