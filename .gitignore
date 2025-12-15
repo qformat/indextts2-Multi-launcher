@@ -21,6 +21,8 @@ indextts/BigVGAN/*.pth
 gpt_weights/
 checkpoints/hub/
 *.safetensors
+# Archives
+*.zip
 *.tar
 *.t7
 tools/stream/onnx_models/
@@ -50,9 +52,10 @@ dist/
 *.egg-info/
 *.spec
 build_app.py
-src/ui/app.py
 src/ui/app.c
 !src/ui/app.cp310-win_amd64.pyd
+pack_update.py
+one_click_update.py
 
 # Configuration (contains paths/keys)
 config.json
