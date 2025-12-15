@@ -41,6 +41,7 @@ examples/*.wav
 # Logs
 logs/
 *.log
+*.bak
 
 # Build
 build/
