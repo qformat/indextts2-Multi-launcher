@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Environments
+venv/
+env/
+.env
+
+# Checkpoints and Models (Large files)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.mdl
+checkpoints/*.msc
+checkpoints/*.mv
+checkpoints/*.bin
+*.ckpt
+indextts/BigVGAN/*.pth
+gpt_weights/
+checkpoints/hub/
+*.safetensors
+*.tar
+*.t7
+tools/stream/onnx_models/
+voices/*.pt
+
+# Audio outputs and backups
+assets/bak/
+outputs/
+*.wav
+*.mp3
+examples/*.wav
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+*.bak
+*.old
+
+# Build
+build/
+dist/
+*.egg-info/
+*.spec
+build_app.py
+src/ui/app.py
+src/ui/app.c
+!src/ui/app.cp310-win_amd64.pyd
+
+# Configuration (contains paths/keys)
+config.json
+
+# System
+Thumbs.db
+Desktop.ini
+
+# Executables
+*.exe
+.gitignore

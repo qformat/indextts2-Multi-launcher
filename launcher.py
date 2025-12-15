@@ -47,7 +47,15 @@ def main():
     # Try to find python executable
     target_python = find_python_in_venv(venv_path) if venv_path else None
     
-    main_script = os.path.join(base_dir, "src", "main.py")
+    # 修改入口为启动器UI
+    # main_script = os.path.join(base_dir, "src", "main.py")
+    launcher_script = os.path.join(base_dir, "src", "ui", "launcher_ui.py")
+    
+    # 如果找不到启动器UI（可能是旧版本或者未同步），回退到 main.py
+    if not os.path.exists(launcher_script):
+        target_script = os.path.join(base_dir, "src", "main.py")
+    else:
+        target_script = launcher_script
 
     # If not found, show detailed error
     if not target_python:
@@ -73,13 +81,13 @@ def main():
         ctypes.windll.user32.MessageBoxW(0, f"无法找到Python环境。\n\n调试信息:\n{debug_info}", "启动错误", 16)
         return
 
-    if not os.path.exists(main_script):
-        ctypes.windll.user32.MessageBoxW(0, f"无法找到程序入口脚本。\n请确保 'src/main.py' 位于以下路径:\n{base_dir}", "启动错误", 16)
+    if not os.path.exists(target_script):
+        ctypes.windll.user32.MessageBoxW(0, f"无法找到程序入口脚本。\n请确保文件位于以下路径:\n{target_script}", "启动错误", 16)
         return
 
     # Prepare command
     # Pass all arguments received by the launcher to the script
-    cmd = [target_python, main_script] + sys.argv[1:]
+    cmd = [target_python, target_script] + sys.argv[1:]
 
     # Execute
     try:
