@@ -4,10 +4,11 @@ import sys
 import json
 import asyncio
 import traceback
-import aiohttp
+import aiohttp  # 替换requests为异步HTTP库
 import subprocess
 from typing import Optional
 
+# 配置 GitHub 地址
 GITHUB_REPO = "qformat/indextts2-Multi-launcher"
 VERSION_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/master/version.json"
 ARCHIVE_URL = f"https://github.com/{GITHUB_REPO}/archive/refs/heads/master.zip"
@@ -17,9 +18,9 @@ async def get_remote_version() -> dict:
     """异步请求远程版本信息，替换同步requests"""
     headers = {"User-Agent": "IndexTTS2-Launcher/1.0"}
     async with aiohttp.ClientSession() as session:
-        async with session.get(VERSION_URL, timeout=5, headers=headers) as resp:
+        async with session.get(VERSION_URL, timeout=15, headers=headers) as resp:
             if resp.status == 200:
-                # GitHub raw 会返回 text/plain，这里不校验 Content-Type，手动解析 JSON
+                # GitHub raw 可能会返回 text/plain，所以这里直接获取文本并手动解析
                 text = await resp.text()
                 return json.loads(text)
             else:
@@ -145,6 +146,8 @@ async def check_update(page: ft.Page, status_text, progress_bar, info_text, acti
         print(f"Local version: {local_ver}")
         
         download_url = remote_data.get("url", ARCHIVE_URL)
+        if "github.com" in download_url and "gitee.com" not in download_url:
+            download_url = ARCHIVE_URL
 
         if remote_ver > local_ver:
             print("Update found.")

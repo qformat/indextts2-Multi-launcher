@@ -33,25 +33,30 @@ def kill_process_tree(pid):
 
 def download_file(url, dest):
     print(f"正在下载更新包: {url}")
-
-    # 内部实际执行下载的函数，方便在原链接/备用链接之间重用逻辑
-    def _do_download(current_url):
-        print(f"开始请求: {current_url}")
+    try:
         # Gitee Raw 文件下载需要处理防盗链，有时直接请求会403
+        # 尝试不带 Referer 或者使用 Gitee 页面作为 Referer
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            # 'Referer': 'https://gitee.com/', # 移除 Referer 尝试解决 403
             'Accept': '*/*',
             'Connection': 'keep-alive'
         }
+        
+        # 针对 Gitee 大文件/Release 下载的特殊处理
+        # 如果是 raw 链接，尝试转换为 release 下载链接或者 blob 链接
+        if "gitee.com" in url and "/raw/" in url:
+             # 有些 raw 链接对大文件会重定向或禁止访问，这里保留原链接，但在失败时提示
+             pass
 
-        req = urllib.request.Request(current_url, headers=headers)
-
+        req = urllib.request.Request(url, headers=headers)
+        
         # 设置 30秒超时
         with urllib.request.urlopen(req, timeout=30) as response, open(dest, 'wb') as out_file:
             # 检查 HTTP 状态码
             if response.getcode() != 200:
                 raise Exception(f"HTTP Error {response.getcode()}")
-
+            
             # 检查 Content-Type
             content_type = response.getheader('Content-Type', '')
             print(f"响应类型: {content_type}")
@@ -71,28 +76,6 @@ def download_file(url, dest):
                     percent = downloaded * 100 / total_size
                     print(f"\r下载进度: {percent:.1f}%", end='', flush=True)
             print("\n下载完成。", flush=True)
-
-    try:
-        try:
-            # 先按原始地址下载（例如 raw/master/update.zip）
-            _do_download(url)
-        except Exception as e:
-            # 如果是 Gitee raw 且返回 403，则尝试改用仓库打包链接
-            msg = str(e)
-            if "gitee.com" in url and "/raw/" in url and ("403" in msg or "Forbidden" in msg):
-                print("检测到 Gitee raw 链接 403，尝试仓库压缩包链接...")
-                try:
-                    # 将 .../raw/master/update.zip 转换为 .../repository/archive/master.zip
-                    prefix = url.split("/raw/")[0]
-                    alt_url = prefix + "/repository/archive/master.zip"
-                    print(f"备用链接: {alt_url}")
-                    _do_download(alt_url)
-                except Exception as e2:
-                    print(f"\n备用链接下载失败: {e2}")
-                    raise
-            else:
-                # 其他错误直接抛出
-                raise
     except Exception as e:
         print(f"\n下载失败: {e}")
         raise
@@ -166,28 +149,9 @@ def main():
             zip_path = os.path.join(temp_dir, "update.zip")
             extract_dir = os.path.join(temp_dir, "extracted")
             
-            # 先下载更新包（可能是纯 update.zip，也可能是 Gitee 仓库的 archive/master.zip）
             download_file(args.url, zip_path)
             extract_zip(zip_path, extract_dir)
-
-            # 兼容 Gitee repository/archive/master.zip：
-            # 如果解压后的目录里再包含一个 update.zip，则认为真正的更新内容在内部的 update.zip 中
-            inner_update_zip = None
-            for root, dirs, files in os.walk(extract_dir):
-                if "update.zip" in files:
-                    inner_update_zip = os.path.join(root, "update.zip")
-                    break
-
-            if inner_update_zip:
-                print("检测到仓库压缩包内的 update.zip，正在解压内部更新包...", flush=True)
-                inner_extract_dir = os.path.join(temp_dir, "inner_extracted")
-                os.makedirs(inner_extract_dir, exist_ok=True)
-                extract_zip(inner_update_zip, inner_extract_dir)
-                source_dir = inner_extract_dir
-            else:
-                source_dir = extract_dir
-
-            install_update(source_dir, args.target)
+            install_update(extract_dir, args.target)
             
             print("更新成功！正在重启程序...", flush=True)
             time.sleep(2)
