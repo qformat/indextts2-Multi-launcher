@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>IndexTTS 2</h1>
+  <h1>IndexTTS 2-Multi-launcher</h1>
   <p>
     <a href="https://github.com/index-tts/index-tts">
         <img src="https://img.shields.io/badge/GitHub-Code-orange?logo=github"/>
@@ -18,9 +18,9 @@
 
 ## 📖 Introduction
 
-**IndexTTS 2** is a state-of-the-art auto-regressive text-to-speech system that achieves a breakthrough in **emotional expressiveness** and **duration control**.
+**IndexTTS 2-Multi-launcher** is a state-of-the-art auto-regressive text-to-speech system that achieves a breakthrough in **emotional expressiveness** and **duration control**.
 
-Unlike traditional TTS models, IndexTTS 2 allows you to:
+Unlike traditional TTS models, IndexTTS 2-Multi-launcher allows you to:
 
 - **Control Emotion**: Generate speech with rich, specific emotions (e.g., happy, angry, sad, etc.) using text prompts or reference audio.
 - **Control Duration**: Precisely dictate how long the spoken segment should be, enabling perfect synchronization for video dubbing.
@@ -80,7 +80,7 @@ This repository contains the official implementation along with a **built-in gra
 
 ## 📥 Model Download & Setup
 
-IndexTTS 2 requires several model files to function. Some can be downloaded automatically, but the core models **must be downloaded manually**.
+IndexTTS 2-Multi-launcher requires several model files to function. Some can be downloaded automatically, but the core models **must be downloaded manually**.
 
 ### 1. Core Models (Manual Download Required)
 
@@ -160,14 +160,14 @@ If you use this code or model in your research, please cite:
 <div id="中文说明"></div>
 
 <div align="center">
-  <h1>IndexTTS 2</h1>
+  <h1>IndexTTS 2-Multi-launcher</h1>
 </div>
 
 ## 📖 简介
 
-**IndexTTS 2** 是一个在**情感表达**和**时长控制**方面取得突破的自回归零样本语音合成系统。
+**IndexTTS 2-Multi-launcher** 是一个在**情感表达**和**时长控制**方面取得突破的自回归零样本语音合成系统。
 
-与传统的 TTS 模型不同，IndexTTS 2 允许您：
+与传统的 TTS 模型不同，IndexTTS 2-Multi-launcher 允许您：
 
 - **情感控制**：通过文本提示或参考音频生成具有丰富、特定情感（如开心、愤怒、悲伤等）的语音。
 - **时长控制**：精确指定语音片段的时长，完美适配视频配音对口型的需求。
@@ -227,7 +227,7 @@ If you use this code or model in your research, please cite:
 
 ## 📥 模型下载与设置
 
-IndexTTS 2 需要多个模型文件才能运行。部分模型可以自动下载，但**核心模型必须手动下载**。
+IndexTTS 2-Multi-launcher 需要多个模型文件才能运行。部分模型可以自动下载，但**核心模型必须手动下载**。
 
 ### 1. 核心模型 (必须手动下载)
 
