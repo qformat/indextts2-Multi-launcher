@@ -93,7 +93,11 @@ class IndexTTS2:
         self.dtype = torch.float16 if self.use_fp16 else None
         self.stop_mel_token = self.cfg.gpt.stop_mel_token
 
-        self.qwen_emo = QwenEmotion(os.path.join(self.model_dir, self.cfg.qwen_emo_path))
+        self.qwen_emo = QwenEmotion(
+            os.path.join(self.model_dir, self.cfg.qwen_emo_path),
+            device=self.device,
+            use_fp16=self.use_fp16
+        )
 
         self.gpt = UnifiedVoice(**self.cfg.gpt)
         self.gpt_path = os.path.join(self.model_dir, self.cfg.gpt_checkpoint)
@@ -846,14 +850,23 @@ def find_most_similar_cosine(query_vector, matrix):
     return most_similar_index
 
 class QwenEmotion:
-    def __init__(self, model_dir):
+    def __init__(self, model_dir, device="cpu", use_fp16=False):
         self.model_dir = model_dir
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_dir)
-        self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_dir,
-            torch_dtype="float16",  # "auto"
-            device_map="auto"
-        )
+        
+        if device == "cpu":
+            # CPU模式下强制使用float32，避免float16不支持的问题
+            # 手动to(device)防止自动device_map尝试调用CUDA，解决在无CUDA环境或显式指定CPU时的崩溃问题
+            self.model = AutoModelForCausalLM.from_pretrained(
+                self.model_dir,
+                torch_dtype=torch.float32,
+            ).to(device)
+        else:
+            self.model = AutoModelForCausalLM.from_pretrained(
+                self.model_dir,
+                torch_dtype=torch.float16 if use_fp16 else "auto",
+                device_map="auto"
+            )
         self.prompt = "文本情感分类"
         self.cn_key_to_en = {
             "高兴": "happy",

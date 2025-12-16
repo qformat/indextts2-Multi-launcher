@@ -1,5 +1,5 @@
 {
-  "version": "3.4.2",
+  "version": "3.4.3",
   "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
-  "changelog": "1. 修复试听音色总是第一个音频的问题\n2. AI分析失败问题的提示\n3. UI优化了一些细节"
+  "changelog": "1. 去掉了批量生成还携带后缀名的bug\n2. 增加音色选择搜索功能\n3. 音色库UI优化\n4. 修复了CPU模式无法启动问题\n5. 增加全局音频文件存储路径配置（下个版本推送）\n6. 修复了若干小bug"
 }
