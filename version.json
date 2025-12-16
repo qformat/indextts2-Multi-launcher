@@ -1,5 +1,5 @@
 {
-  "version": "3.4.1",
+  "version": "3.4.2",
   "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
-  "changelog": "1. 修复已知问题\n2. 优化 UI 体验\n3. 更新自动更新逻辑"
+  "changelog": "1. 修复音色总是夹子音问题\n2. AI分析失败问题的提示"
 }
