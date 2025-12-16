@@ -1,5 +1,5 @@
 {
   "version": "3.4.2",
   "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
-  "changelog": "1. 修复音色总是夹子音问题\n2. AI分析失败问题的提示"
+  "changelog": "1. 修复试听音色总是第一个音频的问题\n2. AI分析失败问题的提示\n3. UI优化了一些细节"
 }
