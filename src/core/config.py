@@ -40,6 +40,10 @@ class ConfigManager:
                     self.config["voice_custom_names"] = {}
                 if "save_mp3" not in self.config:
                     self.config["save_mp3"] = False
+                if "completion_sound_enabled" not in self.config:
+                    self.config["completion_sound_enabled"] = False
+                if "completion_sound_path" not in self.config:
+                    self.config["completion_sound_path"] = ""
             else:
                 # 创建默认配置
                 self.config = {
@@ -67,7 +71,9 @@ class ConfigManager:
                     "generation_history": [],
                     "voice_gender_map": {},
                     "voice_custom_names": {},
-                    "save_mp3": False
+                    "save_mp3": False,
+                    "completion_sound_enabled": False,
+                    "completion_sound_path": ""
                 }
                 self.save_config()
                 print(f"创建默认配置文件: {self.config_file}")
@@ -95,7 +101,9 @@ class ConfigManager:
                 "generation_history": [],
                 "voice_gender_map": {},
                 "voice_custom_names": {},
-                "save_mp3": False
+                "save_mp3": False,
+                "completion_sound_enabled": False,
+                "completion_sound_path": ""
             }
     
     def save_config(self):

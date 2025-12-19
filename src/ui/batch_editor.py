@@ -375,12 +375,12 @@ def show_batch_edit_dialog(app, e=None):
             ft.Slider(
                 min=0.1,
                 max=2.0,
-                divisions=19,
+                divisions=38,
                 value=float(line_speed_values[i] if i < len(line_speed_values) else 1.0),
                 label="",
                 on_change=lambda e, idx=i: (
                     line_speed_values.__setitem__(idx, float(e.control.value or 1.0)),
-                    setattr(line_speed_labels[idx], "value", f"语速: {float(e.control.value or 1.0):.1f}x"),
+                    setattr(line_speed_labels[idx], "value", f"语速: {float(e.control.value or 1.0):.2f}x"),
                     app.safe_update(line_speed_labels[idx])
                 ),
                 width=160
@@ -425,7 +425,7 @@ def show_batch_edit_dialog(app, e=None):
         while len(line_emotions_labels) < max_n:
             line_emotions_labels.append(ft.Text("情感向量未设", size=10, color=secondary_text))
         while len(line_speed_labels) < max_n:
-            line_speed_labels.append(ft.Text("语速: 1.0x", size=10, color=secondary_text))
+            line_speed_labels.append(ft.Text("语速: 1.00x", size=10, color=secondary_text))
         while len(line_speed_values) < max_n:
             line_speed_values.append(1.0)
         while len(line_emotion_panels) < max_n:
@@ -596,11 +596,11 @@ def show_batch_edit_dialog(app, e=None):
                 s = app.subtitle_line_speeds.get(idx)
                 if s is not None:
                     default_speed = float(s)
-            lbl = ft.Text(f"语速: {default_speed:.1f}x", size=10, color=secondary_text)
+            lbl = ft.Text(f"语速: {default_speed:.2f}x", size=10, color=secondary_text)
             line_speed_labels.append(lbl)
             line_speed_values.append(default_speed)
         except Exception:
-            lbl = ft.Text(f"语速: 1.0x", size=10, color=secondary_text)
+            lbl = ft.Text(f"语速: 1.00x", size=10, color=secondary_text)
             line_speed_labels.append(lbl)
             line_speed_values.append(1.0)
         block = build_row(idx)
@@ -713,7 +713,7 @@ def show_batch_edit_dialog(app, e=None):
             emo_label2 = ft.Text(format_emotion_summary(ev2), size=10, color=secondary_text)
 
             default_speed2 = 1.0
-            lbl2 = ft.Text(f"语速: {default_speed2:.1f}x", size=10, color=secondary_text)
+            lbl2 = ft.Text(f"语速: {default_speed2:.2f}x", size=10, color=secondary_text)
 
             line_text_fields.insert(pos, tf)
             line_role_dropdowns.insert(pos, dd2)

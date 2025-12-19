@@ -33,6 +33,10 @@ def save_audio_from_result(result, dest_dir, dest_filename=None, base_url=None, 
                 if isinstance(p, str):
                     yield p
 
+        def make_alt_dest_path(dest_path: str):
+            base, ext = os.path.splitext(dest_path)
+            return f"{base}_{uuid.uuid4().hex}{ext or '.wav'}"
+
         # 构造目标文件名
         def make_dest_path(src_path=None):
             base = dest_filename or (os.path.basename(src_path) if src_path else f"audio_{uuid.uuid4().hex}.wav")
@@ -55,6 +59,12 @@ def save_audio_from_result(result, dest_dir, dest_filename=None, base_url=None, 
                     return dest_path
                 except Exception as copy_err:
                     log_msg(f"保存音频失败：复制 {cand} -> {dest_path} 出错: {copy_err}")
+                    try:
+                        alt_path = make_alt_dest_path(dest_path)
+                        shutil.copy2(cand, alt_path)
+                        return alt_path
+                    except Exception as copy_err2:
+                        log_msg(f"保存音频失败：复制 {cand} -> {alt_path} 出错: {copy_err2}")
                     continue
             # URL 下载
             if cand.startswith('http://') or cand.startswith('https://'):
@@ -65,6 +75,13 @@ def save_audio_from_result(result, dest_dir, dest_filename=None, base_url=None, 
                         return dest_path
                 except Exception as dl_err:
                     log_msg(f"下载音频失败：{cand} -> {dest_path}: {dl_err}")
+                    try:
+                        alt_path = make_alt_dest_path(dest_path)
+                        urllib.request.urlretrieve(cand, alt_path)
+                        if os.path.isfile(alt_path):
+                            return alt_path
+                    except Exception as dl_err2:
+                        log_msg(f"下载音频失败：{cand} -> {alt_path}: {dl_err2}")
                     continue
             if base_url and cand.startswith('/'):
                 url = urllib.parse.urljoin(base_url.rstrip('/')+'/', cand.lstrip('/'))
@@ -75,6 +92,13 @@ def save_audio_from_result(result, dest_dir, dest_filename=None, base_url=None, 
                         return dest_path
                 except Exception as dl_err2:
                     log_msg(f"下载音频失败：{url} -> {dest_path}: {dl_err2}")
+                    try:
+                        alt_path = make_alt_dest_path(dest_path)
+                        urllib.request.urlretrieve(url, alt_path)
+                        if os.path.isfile(alt_path):
+                            return alt_path
+                    except Exception as dl_err3:
+                        log_msg(f"下载音频失败：{url} -> {alt_path}: {dl_err3}")
                     continue
 
         return None

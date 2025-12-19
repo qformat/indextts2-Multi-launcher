@@ -1,5 +1,12 @@
 {
-  "version": "3.4.3",
+  "version": "3.4.4",
   "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
-  "changelog": "1. 去掉了批量生成还携带后缀名的bug\n2. 增加音色选择搜索功能\n3. 音色库UI优化\n4. 修复了CPU模式无法启动问题\n5. 增加全局音频文件存储路径配置（下个版本推送）\n6. 修复了若干小bug"
+  "changelog": [
+    "1.增加多角色配音字幕单句重新生成功能",
+    "2.增加音色库移动音色文件和重命名功能",
+    "3.优化音色库AI选取功能",
+    "4.优化音色库UI",
+    "5.增加生成提示音设置，在设置中可以自定义生成完成提示音",
+    "6.修复部分用户调整语速变音的问题"
+  ]
 }
