@@ -14,10 +14,11 @@ def run_command(cmd, ignore_errors=False):
         return result.returncode
     return result.returncode
 
+
 def update_version_file():
-    """
-    读取 version.json，增加补丁版本号，并写回。
-    返回新的版本号字符串。
+    """读取 version.json 的版本号并返回。
+
+    注意：已按你的要求禁用“自动递增版本号”，这里不会写回 version.json。
     """
     version_file = "version.json"
     if not os.path.exists(version_file):
@@ -27,28 +28,13 @@ def update_version_file():
     try:
         with open(version_file, "r", encoding="utf-8") as f:
             data = json.load(f)
-        
+
         current_version = data.get("version", "1.0.0")
         print(f"Current version: {current_version}")
-        
-        parts = current_version.split(".")
-        if len(parts) >= 3:
-            # Increment patch version
-            try:
-                parts[-1] = str(int(parts[-1]) + 1)
-                new_version = ".".join(parts)
-            except ValueError:
-                print("Error: Could not parse version number.")
-                return current_version
-        else:
-            new_version = current_version + ".1"
-            
-        data["version"] = new_version
+
+        # 禁用自动递增：保持原版本号不变
+        new_version = current_version
         print(f"New version: {new_version}")
-        
-        with open(version_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-            
         return new_version
     except Exception as e:
         print(f"Error updating version file: {e}")
@@ -61,7 +47,7 @@ def main():
     
     new_version = None
     if not skip_build:
-        # 0. 自动增加版本号
+        # 0. 自动增加版本号（已禁用递增，仅读取当前版本号）
         print("\n[0/4] 检查并更新版本号...")
         new_version = update_version_file()
         if new_version:
@@ -107,7 +93,7 @@ setup(
             sys.exit(1)
 
         # 2. 编译 app.py 为 .pyd
-        print("\n[2/4] 正在编译 app.py...")
+        print("\n[2/4] 正在编译 .pyd...")
         try:
             import Cython
         except ImportError:
