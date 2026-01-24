@@ -2,8 +2,10 @@
   "version": "3.5.0",
   "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
   "changelog": [
-    "增加多角色配音字幕可不生成字幕功能",
-    "增加批量生成自选音色功能",
+    "增加生成音色功能，集成Qwen3-tts模型，可随意生成可商用音色",
+    "增加播客批量生成功能，可批量生成播客音频",
+    "增加随机音色功能，可随机选择音色",
+    "修复播放后音色无法删除问题",
     "修复批量生成字幕生成规范问题"
   ]
 }
