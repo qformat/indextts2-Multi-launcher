@@ -25,14 +25,29 @@ import torch.distributed as dist
 from torch import nn
 from torch.nn import functional as F
 
-from transformers.cache_utils import (
-    Cache,
-    DynamicCache,
-    EncoderDecoderCache,
-    OffloadedCache,
-    QuantizedCacheConfig,
-    StaticCache,
-)
+try:
+    from transformers.cache_utils import (
+        Cache,
+        DynamicCache,
+        EncoderDecoderCache,
+        OffloadedCache,
+        QuantizedCacheConfig,
+        StaticCache,
+    )
+except ImportError:
+    from transformers.cache_utils import (
+        Cache,
+        DynamicCache,
+        EncoderDecoderCache,
+        OffloadedCache,
+        StaticCache,
+    )
+    
+    try:
+        from transformers.utils.quantization_config import QuantizedCacheConfig
+    except ImportError:
+        class QuantizedCacheConfig:
+            pass
 from transformers.configuration_utils import PretrainedConfig
 from transformers.integrations.deepspeed import is_deepspeed_zero3_enabled
 from transformers.integrations.fsdp import is_fsdp_managed_module
@@ -55,16 +70,39 @@ from transformers.generation.candidate_generator import (
     AssistedCandidateGeneratorDifferentTokenizers,
     CandidateGenerator,
     PromptLookupCandidateGenerator,
-    _crop_past_key_values,
     _prepare_attention_mask,
     _prepare_token_type_ids,
 )
+
+def _crop_past_key_values(model, past_key_values, max_length):
+    if past_key_values is None:
+        return None
+    elif hasattr(past_key_values, "crop"):
+        past_key_values.crop(max_length)
+        return past_key_values
+    elif isinstance(past_key_values, (tuple, list)):
+        new_past = []
+        for layer_past in past_key_values:
+            if isinstance(layer_past, (tuple, list)):
+                new_layer_past = []
+                for state in layer_past:
+                    if state.shape[-2] > max_length:
+                        new_layer_past.append(state[..., :max_length, :])
+                    else:
+                        new_layer_past.append(state)
+                new_past.append(tuple(new_layer_past))
+            else:
+                 new_past.append(layer_past)
+        return tuple(new_past)
+    return past_key_values
 from transformers.generation.configuration_utils import (
-    NEED_SETUP_CACHE_CLASSES_MAPPING,
-    QUANT_BACKEND_CLASSES_MAPPING,
     GenerationConfig,
     GenerationMode,
 )
+
+# Mock missing mappings
+NEED_SETUP_CACHE_CLASSES_MAPPING = set()
+QUANT_BACKEND_CLASSES_MAPPING = {}
 from transformers.generation.logits_process import (
     EncoderNoRepeatNGramLogitsProcessor,
     EncoderRepetitionPenaltyLogitsProcessor,
@@ -1002,7 +1040,7 @@ class GenerationMixin:
                     device=device,
                 )
             )
-        if generation_config.forced_decoder_ids is not None:
+        if getattr(generation_config, "forced_decoder_ids", None) is not None:
             # TODO (sanchit): move this exception to GenerationConfig.validate() when TF & FLAX are aligned with PT
             raise ValueError(
                 "You have explicitly specified `forced_decoder_ids`. Please remove the `forced_decoder_ids` argument "

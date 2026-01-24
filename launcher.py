@@ -106,7 +106,10 @@ def main():
     code = (
         "import src.ui.launcher_ui as _m; "
         "import flet as ft; "
-        "ft.app(target=_m.main)"
+        "def main(page: ft.Page):"
+        "    page.title = 'K哥配音软件';"
+        "    _m.main(page);"
+        "ft.app(target=main)"
     )
     cmd = [target_python, "-c", code] + sys.argv[1:]
 

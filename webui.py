@@ -56,8 +56,57 @@ for file in [
 
 import gradio as gr
 from indextts.infer_v2 import IndexTTS2
+from indextts.qwen3 import Qwen3TTS
+import torch
+import gc
 from tools.i18n.i18n import I18nAuto
 import gradio_client.utils as _gcu
+
+# Global model management
+qwen3_instance = None
+indextts_instance = None
+
+def load_indextts():
+    global indextts_instance, tts, qwen3_instance
+    if indextts_instance is None:
+        if qwen3_instance is not None:
+            print("Unloading Qwen3-TTS to free VRAM...")
+            try:
+                qwen3_instance.unload_model()
+            except Exception as e:
+                print(f"Error unloading Qwen3: {e}")
+            qwen3_instance = None
+            
+        print("Loading IndexTTS2...")
+        indextts_instance = IndexTTS2(model_dir=cmd_args.model_dir,
+                        cfg_path=os.path.join(cmd_args.model_dir, "config.yaml"),
+                        use_fp16=cmd_args.fp16,
+                        use_deepspeed=cmd_args.deepspeed,
+                        use_cuda_kernel=cmd_args.cuda_kernel,
+                        device=cmd_args.device,
+                        low_vram=cmd_args.low_vram,
+                        )
+    # Always ensure global tts is synced with indextts_instance
+    tts = indextts_instance
+    return indextts_instance
+
+def load_qwen3():
+    global qwen3_instance, indextts_instance, tts
+    if qwen3_instance is None:
+        # Unload IndexTTS if loaded
+        if indextts_instance is not None:
+            print("Unloading IndexTTS2 to free VRAM...")
+            del indextts_instance
+            indextts_instance = None
+            tts = None
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            gc.collect()
+            
+        print("Loading Qwen3-TTS...")
+        qwen3_instance = Qwen3TTS(os.path.join(cmd_args.model_dir, "hub", "Qwen3-TTS-12Hz-1.7B-VoiceDesign"), device=cmd_args.device or "cuda")
+        
+    return qwen3_instance
 
 _orig_json_schema_to_python_type = getattr(_gcu, "_json_schema_to_python_type", None)
 if _orig_json_schema_to_python_type:
@@ -77,6 +126,7 @@ tts = IndexTTS2(model_dir=cmd_args.model_dir,
                 device=cmd_args.device,
                 low_vram=cmd_args.low_vram,
                 )
+indextts_instance = tts
 # 支持的语言列表
 LANGUAGES = {
     "中文": "zh_CN",
@@ -134,11 +184,14 @@ def gen_single(emo_control_method,prompt, text,
                speaking_speed,
                max_text_tokens_per_segment=120,
                 *args, progress=gr.Progress()):
+    # Ensure IndexTTS model is loaded
+    current_tts = load_indextts()
+    
     output_path = None
     if not output_path:
         output_path = os.path.join("outputs", f"spk_{int(time.time())}.wav")
     # set gradio progress
-    tts.gr_progress = progress
+    current_tts.gr_progress = progress
     do_sample, top_p, top_k, temperature, \
         length_penalty, num_beams, repetition_penalty, max_mel_tokens = args
     kwargs = {
@@ -161,7 +214,7 @@ def gen_single(emo_control_method,prompt, text,
         pass
     if emo_control_method == 2:  # emotion from custom vectors
         vec = [vec1, vec2, vec3, vec4, vec5, vec6, vec7, vec8]
-        vec = tts.normalize_emo_vec(vec, apply_bias=True)
+        vec = current_tts.normalize_emo_vec(vec, apply_bias=True)
     else:
         # don't use the emotion vector inputs for the other modes
         vec = None
@@ -171,7 +224,7 @@ def gen_single(emo_control_method,prompt, text,
         emo_text = None
 
     print(f"Emo control mode:{emo_control_method},weight:{emo_weight},vec:{vec}")
-    output = tts.infer(spk_audio_prompt=prompt, text=text,
+    output = current_tts.infer(spk_audio_prompt=prompt, text=text,
                        output_path=output_path,
                        emo_audio_prompt=emo_ref_path, emo_alpha=emo_weight,
                        emo_vector=vec,
@@ -181,6 +234,38 @@ def gen_single(emo_control_method,prompt, text,
                        max_text_tokens_per_segment=int(max_text_tokens_per_segment),
                        **kwargs)
     return gr.update(value=output,visible=True)
+
+def generate_new_voice(voice_desc, text_content, language):
+    if not voice_desc or not text_content:
+        return None, "请输入描述和文本"
+        
+    qwen = None
+    try:
+        qwen = load_qwen3()
+        
+        timestamp = int(time.time())
+        filename = f"voice_{timestamp}.wav"
+        output_path = os.path.join("prompts", filename)
+        
+        # Map UI language to backend language
+        lang_map = {
+            "Chinese": "Chinese",
+            "English": "English",
+            "Auto": "auto"
+        }
+        target_lang = lang_map.get(language, language)
+        
+        saved_path = qwen.generate(text_content, voice_desc, output_path, language=target_lang)
+        if saved_path:
+            return saved_path, f"成功生成并保存到: {saved_path}"
+        else:
+            return None, "生成失败"
+    except Exception as e:
+        return None, f"生成出错: {str(e)}"
+    finally:
+        if qwen:
+            print("Generation complete, unloading Qwen3-TTS to free VRAM...")
+            qwen.unload_model()
 
 def update_prompt_audio():
     update_button = gr.update(interactive=True)
@@ -192,7 +277,7 @@ def create_warning_message(warning_text):
 def create_experimental_warning_message():
     return create_warning_message(i18n('提示：此功能为实验版，结果尚不稳定，我们正在持续优化中。'))
 
-with gr.Blocks(title="IndexTTS Demo") as demo:
+with gr.Blocks(title="K哥配音软件") as demo:
     mutex = threading.Lock()
     gr.HTML('''
     <h2><center>IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech</h2>
@@ -200,6 +285,28 @@ with gr.Blocks(title="IndexTTS Demo") as demo:
 <a href='https://arxiv.org/abs/2506.21619'><img src='https://img.shields.io/badge/ArXiv-2506.21619-red'></a>
 </p>
     ''')
+
+    with gr.Tab(i18n("生成新音色")):
+        gr.Markdown(i18n("通过文本描述生成商业级音色，并自动保存到音色库。"))
+        with gr.Row():
+            with gr.Column():
+                voice_desc_input = gr.Textbox(label=i18n("音色描述"), placeholder="例如：成熟稳重的男性声音，充满磁性", lines=2)
+                voice_text_input = gr.Textbox(label=i18n("示例文本"), placeholder="请输入一段文本用于生成音色预览", value="你好，这是一个全新的商业级音色。", lines=2)
+                
+                language_choices = ["Auto", "Chinese", "English", "Japanese", "Korean", "German", "French", "Spanish", "Italian", "Russian", "Portuguese"]
+                language_input = gr.Dropdown(choices=language_choices, value="Auto", label=i18n("生成语言"))
+                
+                gen_voice_btn = gr.Button(i18n("生成并保存"), variant="primary")
+            with gr.Column():
+                voice_preview = gr.Audio(label=i18n("音色预览"), type="filepath")
+                voice_status = gr.Textbox(label=i18n("状态"), interactive=False)
+        
+        gen_voice_btn.click(
+            generate_new_voice,
+            inputs=[voice_desc_input, voice_text_input, language_input],
+            outputs=[voice_preview, voice_status],
+            api_name="generate_new_voice"
+        )
 
     with gr.Tab(i18n("音频生成")):
         with gr.Row():
@@ -357,6 +464,8 @@ with gr.Blocks(title="IndexTTS Demo") as demo:
     )
 
     def on_input_text_change(text, max_text_tokens_per_segment):
+        if indextts_instance is None:
+             load_indextts()
         if text and len(text) > 0:
             text_tokens_list = tts.tokenizer.tokenize(text)
 
