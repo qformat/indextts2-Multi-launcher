@@ -70,6 +70,60 @@ class Qwen3TTS:
             except subprocess.CalledProcessError as e:
                 print(f"Failed to install {package_name}: {e}")
 
+    def _patch_transformers(self):
+        try:
+            import transformers.utils.args_doc as args_doc
+            def safe_auto_class_docstring(obj=None, *args, **kwargs):
+                if obj is not None and isinstance(obj, type):
+                    return obj
+                def decorator(cls):
+                    return cls
+                return decorator
+            args_doc.auto_class_docstring = safe_auto_class_docstring
+        except Exception:
+            pass
+
+        try:
+            import transformers
+            try:
+                import transformers.masking_utils
+                return
+            except Exception:
+                pass
+            import types
+            masking_utils = types.ModuleType("transformers.masking_utils")
+            found_prepare = False
+            try:
+                from transformers.modeling_attn_mask_utils import _prepare_4d_causal_attention_mask
+                masking_utils._prepare_4d_causal_attention_mask = _prepare_4d_causal_attention_mask
+                found_prepare = True
+            except Exception:
+                pass
+            try:
+                from transformers.modeling_attn_mask_utils import _create_4d_causal_attention_mask
+                masking_utils.create_causal_mask = _create_4d_causal_attention_mask
+            except Exception:
+                def create_causal_mask(*args, **kwargs):
+                    return None
+                masking_utils.create_causal_mask = create_causal_mask
+            try:
+                from transformers.modeling_attn_mask_utils import _create_4d_causal_attention_mask
+                def create_sliding_window_causal_mask(*args, **kwargs):
+                    return _create_4d_causal_attention_mask(*args, **kwargs)
+                masking_utils.create_sliding_window_causal_mask = create_sliding_window_causal_mask
+            except Exception:
+                def create_sliding_window_causal_mask(*args, **kwargs):
+                    return None
+                masking_utils.create_sliding_window_causal_mask = create_sliding_window_causal_mask
+            if not found_prepare:
+                def _prepare_4d_causal_attention_mask(*args, **kwargs):
+                    return None
+                masking_utils._prepare_4d_causal_attention_mask = _prepare_4d_causal_attention_mask
+            sys.modules["transformers.masking_utils"] = masking_utils
+            transformers.masking_utils = masking_utils
+        except Exception:
+            pass
+
     def load_model(self):
         if self.model_wrapper is not None:
             return
@@ -78,6 +132,8 @@ class Qwen3TTS:
         
         # Ensure qwen_tts is available
         self._ensure_package("qwen_tts", "qwen-tts")
+
+        self._patch_transformers()
         
         try:
             with SuppressWindows():

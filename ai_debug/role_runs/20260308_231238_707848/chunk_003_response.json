@@ -1,0 +1,1265 @@
+{
+  "block_id": "block_003",
+  "segments": [
+    {
+      "text": "乖在这待着，我去洗澡",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "我眯着眼，等他一进浴室",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "立马跳到了沙发上",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒出来时脸一黑",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "西西",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "我轻蔑地瞥他一眼，缩成一团装死",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "轻蔑",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "西西",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "他又喊了一声，我继续装死",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "愚蠢的人类，昨天差点掐死我",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "还把我赶出去淋雨，现在想哄好我做梦",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "本喵今年三岁了，是有脾气的",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "傲娇",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒直接走过来，把我提回床上",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "下一秒我滋溜又窜回沙发",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "得意",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.2,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "他气笑了，走过来挠我脖子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.1,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "生气了",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "我也很生气，扭头不理他",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒打开一瓶红酒，倒了一点在指尖",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "凑到我嘴边，想灌醉我门都没有",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "警惕",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "我刚要跑，酒香钻进鼻子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.2,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒自己喝了大半瓶，把我抱在怀里",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "脑子里却全是昨晚那个女孩赤裸无助的样子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "羞涩",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "他耳根发烫呼吸一乱，猛地把我扔开",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "去沙发睡",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "等战彦寒再醒来已经是中午",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "他下楼时万灵儿正坐在餐桌旁",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "彦寒，厨房做了你最爱吃的鱼",
+      "role": "万灵儿",
+      "type": "dialogue",
+      "emotion": "讨好",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "温柔女声.wav"
+    },
+    {
+      "text": "万灵儿夹了一块鱼肉放进他碗里",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒嫌恶地避开，直接扔了筷子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "万灵儿僵住，战彦寒冷冷开口",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "我没记错的话，我们没熟到互相夹菜的地步",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "万灵儿脸瞬间惨白，这时于思思抱着纸袋跑进来",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "慌乱",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0.2,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "四哥，西西呢",
+      "role": "于思思",
+      "type": "dialogue",
+      "emotion": "急切",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "逗娇娇.wav"
+    },
+    {
+      "text": "万灵儿手一抖，汤匙啪叽摔碎在地",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "慌乱",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "手滑",
+      "role": "万灵儿",
+      "type": "dialogue",
+      "emotion": "慌乱",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "温柔女声.wav"
+    },
+    {
+      "text": "我慢悠悠从楼上下来，睡沙发睡得腰疼",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "疲惫",
+      "emotion_vector": [
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 0.9,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "西西，小鱼干",
+      "role": "于思思",
+      "type": "dialogue",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "逗娇娇.wav"
+    },
+    {
+      "text": "于思思撕开包装，我瞬间冲进她怀里疯狂蹭脸",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.2,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "喵呜",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "音色-   逗超幼.wav"
+    },
+    {
+      "text": "战彦寒脸黑了，于思思检查我的伤口尖叫",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0.3,
+        0,
+        0,
+        0.3,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "天呐缝针了，谁干的，肚子怎么还有淤青",
+      "role": "于思思",
+      "type": "dialogue",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0.3,
+        0
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "逗娇娇.wav"
+    },
+    {
+      "text": "我立刻卖惨，控诉地看向战彦寒",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "委屈",
+      "emotion_vector": [
+        0,
+        0.2,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "就是他，四哥你会不会养猫啊，不会给我",
+      "role": "于思思",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "逗娇娇.wav"
+    },
+    {
+      "text": "战彦寒无语，同行的于烨赶紧拉住妹妹",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "行了，带西西去花园玩，我跟老四有话说",
+      "role": "于烨",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "逗宇宁.wav"
+    },
+    {
+      "text": "万灵儿见状尴尬地找借口溜了，客厅只剩下两人",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "尴尬",
+      "emotion_vector": [
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "于烨递出一份档案袋，两年前那场车祸有眉目了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "严肃",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "监控找到了，老四要动手吗",
+      "role": "于烨",
+      "type": "dialogue",
+      "emotion": "急切",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "逗宇宁.wav"
+    },
+    {
+      "text": "战彦寒看着视频脸色阴沉，一下午都心不在焉",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "眼神频频飘向窗外，我和于思思玩得正嗨",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "晚饭时战彦寒冷冷开口：你怎么还不带你妹妹滚",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "于烨被迫拖走了依依不舍的于思思",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "人一走战彦寒就把我提起来，我买的小鱼干不好吃",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "吃醋",
+      "emotion_vector": [
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "我翻白眼，这男人醋劲真大",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.1,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "回房后他竟然往我的猫碗里倒了红酒，自己也倒了一杯",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "干杯",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "text": "他拿酒杯碰了碰我的碗，我盯着红酒喉咙滚了滚",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "期待",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "试探着舔了一口，没味道，再舔一口好像还行",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平淡",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "我又舔了一下战彦寒沾酒的指尖，正期待奇迹发生",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "期待",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "突然脑袋轰的一声，整张脸栽进碗里",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0.3,
+        0.1
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "白毛染红一片，战彦寒把醉醺醺的我捞出来擦干净",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "我迷迷糊糊抱住他的脸，伸舌头里里外外舔了一遍",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "迷糊",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "然后头一歪，靠在他肩上睡死过去",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 0.9,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒嫌弃地擦脸，眼神却温柔得能滴水",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "温柔",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "他拿出手机，在一个搜索网站发了个帖子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "给猫吃什么东西可以变成女人，在线等挺急的",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "急切",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0.2
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "不过数分钟，帖子就集到了上万的赞",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "卧槽，我看到了一个世纪牛逼帖",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0.1
+      ],
+      "speaking_speed": 1.1,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "看着手机上那些关于猫变人的奇葩评论",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "战彦寒无奈地皱了皱眉，现在的网友脑洞真是太大了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "text": "第二天清晨",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "suggested_voice": "故事-逗叔君.wav"
+    }
+  ]
+}

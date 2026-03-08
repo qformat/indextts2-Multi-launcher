@@ -1,0 +1,143 @@
+{
+  "chunk_index": 4,
+  "roles": [
+    "战彦寒",
+    "旁白"
+  ],
+  "count": 7,
+  "assignments": [
+    {
+      "line": 323,
+      "role": "旁白",
+      "text": "西西变人不是因为酒也不是因为豆浆",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    },
+    {
+      "line": 324,
+      "role": "旁白",
+      "text": "而是因为他的口水",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    },
+    {
+      "line": 325,
+      "role": "旁白",
+      "text": "这时手机响了",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    },
+    {
+      "line": 326,
+      "role": "旁白",
+      "text": "视频会议还有五分钟开始",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    },
+    {
+      "line": 327,
+      "role": "旁白",
+      "text": "战彦寒扔给我一套粉色居家服",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    },
+    {
+      "line": 328,
+      "role": "战彦寒",
+      "text": "乖穿上",
+      "type": "dialogue",
+      "emotion": "温柔",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    },
+    {
+      "line": 329,
+      "role": "战彦寒",
+      "text": "我要开会",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 4
+    }
+  ]
+}

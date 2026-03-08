@@ -1,0 +1,107 @@
+{
+  "block_id": "block_005",
+  "segments": [
+    {
+      "text": "西西变人不是因为酒也不是因为豆浆",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "而是因为他的口水",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "这时手机响了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "视频会议还有五分钟开始",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒扔给我一套粉色居家服",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "乖穿上，我要开会",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "温柔",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.8
+      ],
+      "speaking_speed": 1.0
+    }
+  ]
+}

@@ -13,6 +13,8 @@ def save_audio_from_result(result, dest_dir, dest_filename=None, base_url=None, 
     返回保存后的完整路径，若无法解析则返回 None。
     """
     try:
+        if not dest_dir:
+            dest_dir = "prompts" if os.path.isdir("prompts") else "outputs"
         os.makedirs(dest_dir, exist_ok=True)
 
         def iter_candidates(obj):

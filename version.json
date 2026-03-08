@@ -1,5 +1,5 @@
 {
-  "version": "3.5.0",
+  "version": "3.5.1",
   "url": "https://github.com/qformat/indextts2-Multi-launcher/archive/refs/heads/master.zip",
   "changelog": [
     "增加生成音色功能，集成Qwen3-tts模型，可随意生成可商用音色",

@@ -1,0 +1,1195 @@
+{
+  "block_id": "block_002",
+  "segments": [
+    {
+      "text": "夏辛还没应声，门外就传来一阵动静",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战家老夫人沉着脸走进来，开口问道：彦寒你说什么",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒脚步一顿，喊了声奶奶",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老夫人看着他满身泥泞，头发还挂着枯草",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "气得手里的拐杖都不住地发抖",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "你看看你现在，到底像什么样子",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒一脸淡定，手还在轻轻挠我的头",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老夫人重重吐出一口浊气，骂道：造孽",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒+厌恶",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "这只猫就是扫把星，自从进门战家没太平过",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "愤怒+厌恶",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战家这两年确实流年不利，多灾多难",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "二哥三年前坠机，三哥两年半前海难昏迷",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "大哥一年前也因车祸不幸身亡",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒赶到时，见我遍体鳞伤守在他母亲身边",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "从那以后，他就把我养在蓝泽园寸步不离",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "奶奶您把天灾人祸怪在一只猫身上",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒脸色一沉，语气冰冷地质问",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "就因为这个，您差点打死它吗",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "你母亲执迷不悟，你也跟着一起疯",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "愤怒+低落",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老夫人叹气，命令道：立刻把猫送走",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒+无奈",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒周身戾气暴涨，一字一顿反问",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我要是不肯呢",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒+强势",
+      "emotion_vector": [
+        0,
+        0.9,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.8
+    },
+    {
+      "text": "老夫人被噎得说不出话来，面露错愕",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶+愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒二十二岁接管家族，一年资产翻三倍",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "手段狠厉，连家族长辈都忌惮他三分",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老夫人强压怒火，提出另一个条件",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "不送走也行，那就早点和灵儿完婚",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "压抑的愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老夫人喊道：灵儿！万灵儿乖巧进门",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "万灵儿娇羞低头，轻声唤道：彦寒，灵儿",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "娇羞",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "今天彦寒不去公司，你在蓝泽园陪他",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "命令",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老夫人说完就走，不给战彦寒拒绝机会",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "刺鼻的香水味呛醒了我，我喵呜一声",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "不适+惊吓",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.3,
+        0.3,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒温柔抚摸我的头，却发现我浑身发抖",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "担忧",
+      "emotion_vector": [
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我拼命往他怀里钻，像刚被捡回来时一样",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "万灵儿脸色一僵，硬着头皮伸手讨好",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "尴尬",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "西西，来让我抱抱，我会好好疼你的",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "讨好",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "话音刚落，我抖得比刚才更厉害了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒眼神幽深，冷冷看向万灵儿",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "冰冷",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "万灵儿干笑，解释道：西西好像怕生",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "尴尬",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒眼睛眯成线，盯得万灵儿心虚低头",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "冰冷",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "突然门外传来一阵骚动，有人闯进来",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "老四听说你猫丢了，动静闹得震动海城",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "活泼",
+      "emotion_vector": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.2
+    },
+    {
+      "text": "我又给你买了一只，你肯定会喜欢",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "活泼",
+      "emotion_vector": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.2
+    },
+    {
+      "text": "发小楚逸顶着黄毛，穿荧光粉衬衫哈伦裤",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "风风火火闯进来，怀里还抱着一只白猫",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "话没说完，他就看见战彦寒怀里的我",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我慵懒白他一眼，心里骂：愚蠢的人类",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "傲娇+厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "本尊什么时候丢过，真是多管闲事",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "傲娇+厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "楚逸瞪大眼，惊讶吐槽：这猫什么眼神",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶+吐槽",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "跟战彦寒一个德行，简直一模一样",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "惊讶+吐槽",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0.1
+      ],
+      "speaking_speed": 1.2
+    },
+    {
+      "text": "战彦寒皱眉，冷冷开口：没事你可以走了",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "冰冷",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "我怕你伤心，一大早找了只一模一样的",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "委屈",
+      "emotion_vector": [
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1
+    },
+    {
+      "text": "楚逸气结，提议：把我家这只公的留下",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "跟你的配一对，生窝崽子回回血",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "算计",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1
+    },
+    {
+      "text": "这猫贼贵，我连名字都起好了叫东东",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "得意",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1
+    },
+    {
+      "text": "配对！我在他怀里一蹬跳下来炸毛怒吼",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "你瞎吗！那只鸳鸯眼丑成那样配不上本尊",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒+厌恶",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒看着炸毛的我，嘴角微微勾起",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "温柔",
+      "emotion_vector": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "伸手摸我的头，我瞬间收声钻回他怀里",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "楚逸一脸吃瘪，吐槽：现在猫仗人势都这么拽",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "不满+吐槽",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.2
+    },
+    {
+      "text": "战彦寒开口道：困了，睡觉",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "疲惫+温柔",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "战彦寒抱起我，转身往楼上房间走",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "睡觉抱猫干嘛？留下跟东东培养感情啊",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "不满",
+      "emotion_vector": [
+        0,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.1
+    },
+    {
+      "text": "我回头凶狠哈他一口气，表达不满",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒+厌恶",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒眼皮没抬，淡淡道：一起睡",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "平静+强势",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "楚逸翻白眼吐槽：有本事搂个女人睡",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "吐槽",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.2
+      ],
+      "speaking_speed": 1.2
+    },
+    {
+      "text": "他转头猛地看见角落的人，惊呼出声",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "哎呀妈呀！这怎么还有个人在这里",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0
+      ],
+      "speaking_speed": 1.2
+    },
+    {
+      "text": "全程被无视的万灵儿尴尬得要死",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "尴尬",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "万灵儿小声说：我一直都在这里",
+      "role": "旁白",
+      "type": "dialogue",
+      "emotion": "尴尬+委屈",
+      "emotion_vector": [
+        0,
+        0,
+        0.3,
+        0,
+        0,
+        0.3,
+        0,
+        0.1
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒回到房间，帮我擦洗干净放床上",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "温柔",
+      "emotion_vector": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    }
+  ]
+}

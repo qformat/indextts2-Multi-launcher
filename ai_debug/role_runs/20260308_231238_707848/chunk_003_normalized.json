@@ -1,0 +1,1341 @@
+{
+  "chunk_index": 2,
+  "roles": [
+    "万灵儿小声说",
+    "战彦寒",
+    "旁白"
+  ],
+  "count": 70,
+  "assignments": [
+    {
+      "line": 151,
+      "role": "万灵儿小声说",
+      "text": "乖在这待着，我去洗澡",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 152,
+      "role": "旁白",
+      "text": "我眯着眼，等他一进浴室",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 153,
+      "role": "旁白",
+      "text": "立马跳到了沙发上",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 154,
+      "role": "旁白",
+      "text": "战彦寒出来时脸一黑",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 155,
+      "role": "万灵儿小声说",
+      "text": "西西",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 156,
+      "role": "旁白",
+      "text": "我轻蔑地瞥他一眼，缩成一团装死",
+      "type": "narration",
+      "emotion": "轻蔑",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 157,
+      "role": "万灵儿小声说",
+      "text": "西西",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 158,
+      "role": "旁白",
+      "text": "他又喊了一声，我继续装死",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 159,
+      "role": "旁白",
+      "text": "愚蠢的人类，昨天差点掐死我",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 160,
+      "role": "旁白",
+      "text": "还把我赶出去淋雨，现在想哄好我做梦",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 161,
+      "role": "旁白",
+      "text": "本喵今年三岁了，是有脾气的",
+      "type": "narration",
+      "emotion": "傲娇",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 162,
+      "role": "旁白",
+      "text": "战彦寒直接走过来，把我提回床上",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 163,
+      "role": "旁白",
+      "text": "下一秒我滋溜又窜回沙发",
+      "type": "narration",
+      "emotion": "得意",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.2,
+      "chunk_index": 2
+    },
+    {
+      "line": 164,
+      "role": "旁白",
+      "text": "他气笑了，走过来挠我脖子",
+      "type": "narration",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 165,
+      "role": "万灵儿小声说",
+      "text": "生气了",
+      "type": "dialogue",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 166,
+      "role": "旁白",
+      "text": "我也很生气，扭头不理他",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 167,
+      "role": "旁白",
+      "text": "战彦寒打开一瓶红酒，倒了一点在指尖",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 168,
+      "role": "旁白",
+      "text": "凑到我嘴边，想灌醉我门都没有",
+      "type": "narration",
+      "emotion": "警惕",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 169,
+      "role": "旁白",
+      "text": "我刚要跑，酒香钻进鼻子",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.2,
+      "chunk_index": 2
+    },
+    {
+      "line": 170,
+      "role": "旁白",
+      "text": "战彦寒自己喝了大半瓶，把我抱在怀里",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 171,
+      "role": "旁白",
+      "text": "脑子里却全是昨晚那个女孩赤裸无助的样子",
+      "type": "narration",
+      "emotion": "羞涩",
+      "emotion_vector": [
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 172,
+      "role": "旁白",
+      "text": "他耳根发烫呼吸一乱，猛地把我扔开",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 173,
+      "role": "万灵儿小声说",
+      "text": "去沙发睡",
+      "type": "dialogue",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 174,
+      "role": "旁白",
+      "text": "等战彦寒再醒来已经是中午",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 175,
+      "role": "旁白",
+      "text": "他下楼时万灵儿正坐在餐桌旁",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 176,
+      "role": "万灵儿小声说",
+      "text": "彦寒，厨房做了你最爱吃的鱼",
+      "type": "dialogue",
+      "emotion": "讨好",
+      "emotion_vector": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 177,
+      "role": "旁白",
+      "text": "万灵儿夹了一块鱼肉放进他碗里",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 178,
+      "role": "旁白",
+      "text": "战彦寒嫌恶地避开，直接扔了筷子",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 179,
+      "role": "旁白",
+      "text": "万灵儿僵住，战彦寒冷冷开口",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 180,
+      "role": "万灵儿小声说",
+      "text": "我没记错的话，我们没熟到互相夹菜的地步",
+      "type": "dialogue",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 181,
+      "role": "旁白",
+      "text": "万灵儿脸瞬间惨白，这时于思思抱着纸袋跑进来",
+      "type": "narration",
+      "emotion": "慌乱",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 182,
+      "role": "万灵儿小声说",
+      "text": "四哥，西西呢",
+      "type": "dialogue",
+      "emotion": "急切",
+      "emotion_vector": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 183,
+      "role": "旁白",
+      "text": "万灵儿手一抖，汤匙啪叽摔碎在地",
+      "type": "narration",
+      "emotion": "慌乱",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 184,
+      "role": "万灵儿小声说",
+      "text": "手滑",
+      "type": "dialogue",
+      "emotion": "慌乱",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 185,
+      "role": "旁白",
+      "text": "我慢悠悠从楼上下来，睡沙发睡得腰疼",
+      "type": "narration",
+      "emotion": "疲惫",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9,
+      "chunk_index": 2
+    },
+    {
+      "line": 186,
+      "role": "万灵儿小声说",
+      "text": "西西，小鱼干",
+      "type": "dialogue",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 187,
+      "role": "旁白",
+      "text": "于思思撕开包装，我瞬间冲进她怀里疯狂蹭脸",
+      "type": "narration",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.2,
+      "chunk_index": 2
+    },
+    {
+      "line": 188,
+      "role": "旁白",
+      "text": "喵呜",
+      "type": "narration",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 189,
+      "role": "旁白",
+      "text": "战彦寒脸黑了，于思思检查我的伤口尖叫",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 190,
+      "role": "万灵儿小声说",
+      "text": "天呐缝针了，谁干的，肚子怎么还有淤青",
+      "type": "dialogue",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 191,
+      "role": "旁白",
+      "text": "我立刻卖惨，控诉地看向战彦寒",
+      "type": "narration",
+      "emotion": "委屈",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 192,
+      "role": "万灵儿小声说",
+      "text": "就是他，四哥你会不会养猫啊，不会给我",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 193,
+      "role": "旁白",
+      "text": "战彦寒无语，同行的于烨赶紧拉住妹妹",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 194,
+      "role": "万灵儿小声说",
+      "text": "行了，带西西去花园玩，我跟老四有话说",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 195,
+      "role": "旁白",
+      "text": "万灵儿见状尴尬地找借口溜了，客厅只剩下两人",
+      "type": "narration",
+      "emotion": "尴尬",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 196,
+      "role": "旁白",
+      "text": "于烨递出一份档案袋，两年前那场车祸有眉目了",
+      "type": "narration",
+      "emotion": "严肃",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 197,
+      "role": "万灵儿小声说",
+      "text": "监控找到了，老四要动手吗",
+      "type": "dialogue",
+      "emotion": "急切",
+      "emotion_vector": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 198,
+      "role": "旁白",
+      "text": "战彦寒看着视频脸色阴沉，一下午都心不在焉",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 199,
+      "role": "旁白",
+      "text": "眼神频频飘向窗外，我和于思思玩得正嗨",
+      "type": "narration",
+      "emotion": "开心",
+      "emotion_vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 200,
+      "role": "战彦寒",
+      "text": "晚饭时战彦寒冷冷开口：你怎么还不带你妹妹滚",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 201,
+      "role": "旁白",
+      "text": "于烨被迫拖走了依依不舍的于思思",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 202,
+      "role": "旁白",
+      "text": "人一走战彦寒就把我提起来，我买的小鱼干不好吃",
+      "type": "narration",
+      "emotion": "吃醋",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 203,
+      "role": "旁白",
+      "text": "我翻白眼，这男人醋劲真大",
+      "type": "narration",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 204,
+      "role": "旁白",
+      "text": "回房后他竟然往我的猫碗里倒了红酒，自己也倒了一杯",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 205,
+      "role": "战彦寒",
+      "text": "干杯",
+      "type": "dialogue",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 206,
+      "role": "旁白",
+      "text": "他拿酒杯碰了碰我的碗，我盯着红酒喉咙滚了滚",
+      "type": "narration",
+      "emotion": "期待",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 207,
+      "role": "旁白",
+      "text": "试探着舔了一口，没味道，再舔一口好像还行",
+      "type": "narration",
+      "emotion": "平淡",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 208,
+      "role": "旁白",
+      "text": "我又舔了一下战彦寒沾酒的指尖，正期待奇迹发生",
+      "type": "narration",
+      "emotion": "期待",
+      "emotion_vector": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 209,
+      "role": "旁白",
+      "text": "突然脑袋轰的一声，整张脸栽进碗里",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 210,
+      "role": "旁白",
+      "text": "白毛染红一片，战彦寒把醉醺醺的我捞出来擦干净",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 211,
+      "role": "旁白",
+      "text": "我迷迷糊糊抱住他的脸，伸舌头里里外外舔了一遍",
+      "type": "narration",
+      "emotion": "迷糊",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 212,
+      "role": "旁白",
+      "text": "然后头一歪，靠在他肩上睡死过去",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 0.9,
+      "chunk_index": 2
+    },
+    {
+      "line": 213,
+      "role": "旁白",
+      "text": "战彦寒嫌弃地擦脸，眼神却温柔得能滴水",
+      "type": "narration",
+      "emotion": "温柔",
+      "emotion_vector": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 214,
+      "role": "旁白",
+      "text": "他拿出手机，在一个搜索网站发了个帖子",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 215,
+      "role": "旁白",
+      "text": "给猫吃什么东西可以变成女人，在线等挺急的",
+      "type": "narration",
+      "emotion": "急切",
+      "emotion_vector": [
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 216,
+      "role": "旁白",
+      "text": "不过数分钟，帖子就集到了上万的赞",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 217,
+      "role": "旁白",
+      "text": "卧槽，我看到了一个世纪牛逼帖",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 1.1,
+      "chunk_index": 2
+    },
+    {
+      "line": 218,
+      "role": "旁白",
+      "text": "看着手机上那些关于猫变人的奇葩评论",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 219,
+      "role": "旁白",
+      "text": "战彦寒无奈地皱了皱眉，现在的网友脑洞真是太大了",
+      "type": "narration",
+      "emotion": "无奈",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    },
+    {
+      "line": 220,
+      "role": "旁白",
+      "text": "第二天清晨",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4
+      ],
+      "speaking_speed": 1.0,
+      "chunk_index": 2
+    }
+  ]
+}

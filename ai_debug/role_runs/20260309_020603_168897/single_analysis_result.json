@@ -1,0 +1,3502 @@
+{
+  "roles": [
+    {
+      "name": "旁白",
+      "description": "叙述者，负责环境描述和叙述",
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "name": "战彦寒",
+      "description": "冷厉克制的男主人，语气强势压迫感强",
+      "suggested_voice": "新云浩宇(影视模式).wav"
+    }
+  ],
+  "segments": [
+    {
+      "text": "我本是一只无忧无虑的宠物猫",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "却因嘴馋偷喝了一口主人的可乐",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "没想竟从猫咪变成了人类",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "还好巧不巧的被主人战彦寒",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "撞个正着",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "此时我裹着猫毯躺在床上",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "战彦寒还以为我是哪个对家",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "派来的诱饵",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "二话不说掐住我的脖子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.05
+    },
+    {
+      "text": "眼神冷得像冰",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "你是怎么进来的",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "我肚子上全是淤青",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "身上也被划得鲜血淋漓",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "手心还在冒血",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "可战彦寒根本不吃这一套",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "认定我这是为了爬床",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "演的苦肉计",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "他满眼嫌弃",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "哑巴了",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "text": "那声音冷得我直哆嗦",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我惊恐地一抬头",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒整个人都僵住了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "不是被我的美貌惊艳",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "而是因为我那双祖母绿的眼睛",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "跟他走丢的那只猫",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "一模一样",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "但他眼底的寒意反而更重了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "谁派你来的",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "text": "由于缺氧我的脸涨得通红",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "直到眼角滑下一滴",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "生理性的泪水",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "他才像丢垃圾一样",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "把我甩在地上",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我疼得浑身发抖",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "费劲地爬起来",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我不懂人类的羞耻",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "就这么光着身子",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "拉开门往外走",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒听到楼道里的脚步声",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "烦躁地深吸一口气",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "冲过来一把将我拽回去",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.05
+    },
+    {
+      "text": "随手从衣柜扯了件衬衫",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "丢我头上",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "我被砸懵了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "委屈得眼泪啪嗒直掉",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "喵呜",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "我本能地想求饶",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "却发出了猫叫声",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "战彦寒听我学猫叫",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "火气更大了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "穿上衣服",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "text": "立马给我滚",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.8
+    },
+    {
+      "text": "我抽噎着笨拙地",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "把衬衫套反了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "临走前",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "我依依不舍地看了他一眼",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "却只见他满脸阴沉",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "外头雷雨交加",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "压抑",
+      "emotion_vector": [
+        0,
+        0,
+        0.3,
+        0.3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "战彦寒躺在床上翻来覆去",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "睡不着",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "脑子里全是我临走前",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.4,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "那个绝望的眼神",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "天一亮门外就传来了动静",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "四爷找到了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "惊喜",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "十几个保镖撑着黑伞",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "围在他身后",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "战彦寒蹲下身",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "冲着躲在草丛里的我拍手",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "西西过来",
+      "role": "战彦寒",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "text": "往常我早就扑过去了",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.3,
+        0,
+        0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "text": "可这次我吓得往后缩",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "text": "战彦寒脸色一沉",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "text": "我又滋溜一下",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.1
+    },
+    {
+      "text": "钻进了草垛深处",
+      "role": "旁白",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "speaking_speed": 1.05
+    }
+  ],
+  "assignments": [
+    {
+      "line": 0,
+      "role": "旁白",
+      "text": "我本是一只无忧无虑的宠物猫",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 1,
+      "role": "旁白",
+      "text": "却因嘴馋偷喝了一口主人的可乐",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 2,
+      "role": "旁白",
+      "text": "没想竟从猫咪变成了人类",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 3,
+      "role": "旁白",
+      "text": "还好巧不巧的被主人战彦寒",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 4,
+      "role": "旁白",
+      "text": "撞个正着",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 5,
+      "role": "旁白",
+      "text": "此时我裹着猫毯躺在床上",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 6,
+      "role": "旁白",
+      "text": "战彦寒还以为我是哪个对家",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 7,
+      "role": "旁白",
+      "text": "派来的诱饵",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 8,
+      "role": "旁白",
+      "text": "二话不说掐住我的脖子",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.05
+    },
+    {
+      "line": 9,
+      "role": "旁白",
+      "text": "眼神冷得像冰",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 10,
+      "role": "战彦寒",
+      "text": "你是怎么进来的",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 11,
+      "role": "旁白",
+      "text": "我肚子上全是淤青",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 12,
+      "role": "旁白",
+      "text": "身上也被划得鲜血淋漓",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 13,
+      "role": "旁白",
+      "text": "手心还在冒血",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 14,
+      "role": "旁白",
+      "text": "可战彦寒根本不吃这一套",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 15,
+      "role": "旁白",
+      "text": "认定我这是为了爬床",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 16,
+      "role": "旁白",
+      "text": "演的苦肉计",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 17,
+      "role": "旁白",
+      "text": "他满眼嫌弃",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 18,
+      "role": "战彦寒",
+      "text": "哑巴了",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "line": 19,
+      "role": "旁白",
+      "text": "那声音冷得我直哆嗦",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 20,
+      "role": "旁白",
+      "text": "我惊恐地一抬头",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 21,
+      "role": "旁白",
+      "text": "战彦寒整个人都僵住了",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 22,
+      "role": "旁白",
+      "text": "不是被我的美貌惊艳",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 23,
+      "role": "旁白",
+      "text": "而是因为我那双祖母绿的眼睛",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 24,
+      "role": "旁白",
+      "text": "跟他走丢的那只猫",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 25,
+      "role": "旁白",
+      "text": "一模一样",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 26,
+      "role": "旁白",
+      "text": "但他眼底的寒意反而更重了",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 27,
+      "role": "战彦寒",
+      "text": "谁派你来的",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "line": 28,
+      "role": "旁白",
+      "text": "由于缺氧我的脸涨得通红",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 29,
+      "role": "旁白",
+      "text": "直到眼角滑下一滴",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 30,
+      "role": "旁白",
+      "text": "生理性的泪水",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 31,
+      "role": "旁白",
+      "text": "他才像丢垃圾一样",
+      "type": "narration",
+      "emotion": "厌恶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 32,
+      "role": "旁白",
+      "text": "把我甩在地上",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 33,
+      "role": "旁白",
+      "text": "我疼得浑身发抖",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 34,
+      "role": "旁白",
+      "text": "费劲地爬起来",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 35,
+      "role": "旁白",
+      "text": "我不懂人类的羞耻",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 36,
+      "role": "旁白",
+      "text": "就这么光着身子",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 37,
+      "role": "旁白",
+      "text": "拉开门往外走",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 38,
+      "role": "旁白",
+      "text": "战彦寒听到楼道里的脚步声",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 39,
+      "role": "旁白",
+      "text": "烦躁地深吸一口气",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 40,
+      "role": "旁白",
+      "text": "冲过来一把将我拽回去",
+      "type": "narration",
+      "emotion": "紧张",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.05
+    },
+    {
+      "line": 41,
+      "role": "旁白",
+      "text": "随手从衣柜扯了件衬衫",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 42,
+      "role": "旁白",
+      "text": "丢我头上",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 43,
+      "role": "旁白",
+      "text": "我被砸懵了",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 44,
+      "role": "旁白",
+      "text": "委屈得眼泪啪嗒直掉",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 45,
+      "role": "旁白",
+      "text": "喵呜",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 46,
+      "role": "旁白",
+      "text": "我本能地想求饶",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 47,
+      "role": "旁白",
+      "text": "却发出了猫叫声",
+      "type": "narration",
+      "emotion": "惊讶",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 48,
+      "role": "旁白",
+      "text": "战彦寒听我学猫叫",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 49,
+      "role": "旁白",
+      "text": "火气更大了",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 50,
+      "role": "战彦寒",
+      "text": "穿上衣服",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "line": 51,
+      "role": "战彦寒",
+      "text": "立马给我滚",
+      "type": "dialogue",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.8
+    },
+    {
+      "line": 52,
+      "role": "旁白",
+      "text": "我抽噎着笨拙地",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 53,
+      "role": "旁白",
+      "text": "把衬衫套反了",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 54,
+      "role": "旁白",
+      "text": "临走前",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 55,
+      "role": "旁白",
+      "text": "我依依不舍地看了他一眼",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 56,
+      "role": "旁白",
+      "text": "却只见他满脸阴沉",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 57,
+      "role": "旁白",
+      "text": "外头雷雨交加",
+      "type": "narration",
+      "emotion": "压抑",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 58,
+      "role": "旁白",
+      "text": "战彦寒躺在床上翻来覆去",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 59,
+      "role": "旁白",
+      "text": "睡不着",
+      "type": "narration",
+      "emotion": "烦躁",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 60,
+      "role": "旁白",
+      "text": "脑子里全是我临走前",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 61,
+      "role": "旁白",
+      "text": "那个绝望的眼神",
+      "type": "narration",
+      "emotion": "哀伤",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 62,
+      "role": "旁白",
+      "text": "天一亮门外就传来了动静",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 63,
+      "role": "旁白",
+      "text": "四爷找到了",
+      "type": "narration",
+      "emotion": "惊喜",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 64,
+      "role": "旁白",
+      "text": "十几个保镖撑着黑伞",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 65,
+      "role": "旁白",
+      "text": "围在他身后",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 66,
+      "role": "旁白",
+      "text": "战彦寒蹲下身",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 67,
+      "role": "旁白",
+      "text": "冲着躲在草丛里的我拍手",
+      "type": "narration",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 68,
+      "role": "战彦寒",
+      "text": "西西过来",
+      "type": "dialogue",
+      "emotion": "平静",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "speaking_speed": 0.85
+    },
+    {
+      "line": 69,
+      "role": "旁白",
+      "text": "往常我早就扑过去了",
+      "type": "narration",
+      "emotion": "低落",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.95
+    },
+    {
+      "line": 70,
+      "role": "旁白",
+      "text": "可这次我吓得往后缩",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.0
+    },
+    {
+      "line": 71,
+      "role": "旁白",
+      "text": "战彦寒脸色一沉",
+      "type": "narration",
+      "emotion": "愤怒",
+      "emotion_vector": [
+        0.0,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 0.9
+    },
+    {
+      "line": 72,
+      "role": "旁白",
+      "text": "我又滋溜一下",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.1
+    },
+    {
+      "line": 73,
+      "role": "旁白",
+      "text": "钻进了草垛深处",
+      "type": "narration",
+      "emotion": "恐惧",
+      "emotion_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speaking_speed": 1.05
+    }
+  ],
+  "line_emotions": {
+    "0": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "1": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0
+    ],
+    "2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "3": [
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "4": [
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "5": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "6": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "7": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "8": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "9": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "10": [
+      0.0,
+      0.7,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "11": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "12": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "13": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "14": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0
+    ],
+    "15": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "16": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "17": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "18": [
+      0.0,
+      0.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "19": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "20": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "21": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "22": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "23": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "24": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0
+    ],
+    "25": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "26": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "27": [
+      0.0,
+      0.7,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "28": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "29": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "30": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "31": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "32": [
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "33": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "34": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0
+    ],
+    "35": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "36": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "37": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "38": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "39": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "40": [
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "41": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "42": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "43": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "44": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "45": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "46": [
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "47": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "48": [
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "49": [
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "50": [
+      0.0,
+      0.7,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "51": [
+      0.0,
+      0.7,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "52": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "53": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "54": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0
+    ],
+    "55": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0
+    ],
+    "56": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0
+    ],
+    "57": [
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "58": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "59": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "60": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0,
+      0.0
+    ],
+    "61": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "62": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "63": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "64": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "65": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "66": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "67": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3
+    ],
+    "68": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "69": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0
+    ],
+    "70": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "71": [
+      0.0,
+      0.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "72": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "73": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "line_speeds": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 0.95,
+    "6": 0.95,
+    "7": 0.95,
+    "8": 1.05,
+    "9": 0.95,
+    "10": 0.9,
+    "11": 0.95,
+    "12": 0.95,
+    "13": 0.95,
+    "14": 0.95,
+    "15": 0.95,
+    "16": 0.95,
+    "17": 0.9,
+    "18": 0.85,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 0.95,
+    "22": 0.95,
+    "23": 0.95,
+    "24": 0.95,
+    "25": 0.95,
+    "26": 0.95,
+    "27": 0.85,
+    "28": 1.0,
+    "29": 0.95,
+    "30": 0.95,
+    "31": 0.95,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 0.95,
+    "39": 0.95,
+    "40": 1.05,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 0.95,
+    "45": 0.9,
+    "46": 0.95,
+    "47": 0.95,
+    "48": 0.95,
+    "49": 0.95,
+    "50": 0.85,
+    "51": 0.8,
+    "52": 0.9,
+    "53": 0.9,
+    "54": 0.9,
+    "55": 0.9,
+    "56": 0.95,
+    "57": 0.9,
+    "58": 0.95,
+    "59": 0.9,
+    "60": 0.95,
+    "61": 0.9,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 0.95,
+    "65": 0.95,
+    "66": 0.95,
+    "67": 0.95,
+    "68": 0.85,
+    "69": 0.95,
+    "70": 1.0,
+    "71": 0.9,
+    "72": 1.1,
+    "73": 1.05
+  },
+  "assignments_dict": {
+    "0": "旁白",
+    "1": "旁白",
+    "2": "旁白",
+    "3": "旁白",
+    "4": "旁白",
+    "5": "旁白",
+    "6": "旁白",
+    "7": "旁白",
+    "8": "旁白",
+    "9": "旁白",
+    "10": "战彦寒",
+    "11": "旁白",
+    "12": "旁白",
+    "13": "旁白",
+    "14": "旁白",
+    "15": "旁白",
+    "16": "旁白",
+    "17": "旁白",
+    "18": "战彦寒",
+    "19": "旁白",
+    "20": "旁白",
+    "21": "旁白",
+    "22": "旁白",
+    "23": "旁白",
+    "24": "旁白",
+    "25": "旁白",
+    "26": "旁白",
+    "27": "战彦寒",
+    "28": "旁白",
+    "29": "旁白",
+    "30": "旁白",
+    "31": "旁白",
+    "32": "旁白",
+    "33": "旁白",
+    "34": "旁白",
+    "35": "旁白",
+    "36": "旁白",
+    "37": "旁白",
+    "38": "旁白",
+    "39": "旁白",
+    "40": "旁白",
+    "41": "旁白",
+    "42": "旁白",
+    "43": "旁白",
+    "44": "旁白",
+    "45": "旁白",
+    "46": "旁白",
+    "47": "旁白",
+    "48": "旁白",
+    "49": "旁白",
+    "50": "战彦寒",
+    "51": "战彦寒",
+    "52": "旁白",
+    "53": "旁白",
+    "54": "旁白",
+    "55": "旁白",
+    "56": "旁白",
+    "57": "旁白",
+    "58": "旁白",
+    "59": "旁白",
+    "60": "旁白",
+    "61": "旁白",
+    "62": "旁白",
+    "63": "旁白",
+    "64": "旁白",
+    "65": "旁白",
+    "66": "旁白",
+    "67": "旁白",
+    "68": "战彦寒",
+    "69": "旁白",
+    "70": "旁白",
+    "71": "旁白",
+    "72": "旁白",
+    "73": "旁白"
+  }
+}

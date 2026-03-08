@@ -1,0 +1,38 @@
+{
+  "roles": [
+    {
+      "name": "旁白",
+      "description": "全文叙述者，负责环境、动作、心理描写",
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "name": "战彦寒",
+      "description": "男主，西西的主人，性格冷厉强势，后期流露心疼与在意",
+      "suggested_voice": "云浩宇（影视模式.wav"
+    },
+    {
+      "name": "西西",
+      "description": "宠物猫，变成人后以第一人称叙述，胆怯委屈，对主人依恋",
+      "suggested_voice": "云小馨（影视模式）.wav"
+    },
+    {
+      "name": "夏辛",
+      "description": "战彦寒身边的人，负责汇报与协助，语气较恭敬",
+      "suggested_voice": "逗泽齐.wav"
+    },
+    {
+      "name": "兽医",
+      "description": "为西西检查伤势的专业人士，客观汇报检查结果",
+      "suggested_voice": "逗阿生-解说beta.wav"
+    }
+  ],
+  "core_rules": {
+    "dialogue_rule": "角色说出的台词，归属对应角色，type=dialogue；无引号时按语义判定，角色说的话为dialogue，其余为旁白narration",
+    "narration_rule": "所有非台词内容，全部归属旁白，type=narration",
+    "text_limit": "每个text字段长度5-25个汉字，按语义切分，不删减原文",
+    "emotion_rule": "emotion_vector顺序[喜,怒,哀,惧,厌恶,低落,惊喜,平静]，旁白情感值≤0.5，单维度非0值范围0.1-1",
+    "speed_rule": "speaking_speed范围0.1-2.0，1.0为正常语速"
+  },
+  "total_char_count": 1876,
+  "block_count": 53
+}

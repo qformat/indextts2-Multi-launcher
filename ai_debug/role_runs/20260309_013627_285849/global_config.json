@@ -1,0 +1,23 @@
+{
+  "roles": [
+    {
+      "name": "旁白",
+      "description": "全文叙述者，负责环境、动作、心理描写",
+      "suggested_voice": "故事-逗叔君.wav"
+    },
+    {
+      "name": "战彦寒",
+      "description": "男主，宠物猫主人的身份，性格冷厉警惕，语气强势冰冷",
+      "suggested_voice": "云浩宇.wav"
+    }
+  ],
+  "core_rules": {
+    "dialogue_rule": "角色说出的台词，归属对应角色，type=dialogue；无引号时按语义判定，本篇中“你是怎么进来的”“哑巴了”“谁派你来的”“穿上衣服立马给我滚”“西西过来”为战彦寒台词，“喵呜”为我说的话",
+    "narration_rule": "所有非台词内容，全部归属旁白，type=narration",
+    "text_limit": "每个text字段长度5-25个汉字，按语义切分，不删减原文",
+    "emotion_rule": "emotion_vector顺序[喜,怒,哀,惧,厌恶,低落,惊喜,平静]，旁白情感值≤0.5，单维度非0值范围0.1-1",
+    "speed_rule": "speaking_speed范围0.1-2.0，1.0为正常语速"
+  },
+  "total_char_count": 1248,
+  "block_count": 34
+}

@@ -4,6 +4,65 @@ import os
 import sys
 import threading
 import time
+import subprocess
+import importlib.util
+import shutil
+
+# Ensure critical packages are installed (especially for qwen-tts which might be missing)
+def ensure_package(module_name, package_name=None):
+    if package_name is None:
+        package_name = module_name
+    if importlib.util.find_spec(module_name) is None:
+        print(f"Installing missing package: {package_name}")
+        
+        # Helper to run command with hidden window on Windows
+        def run_cmd(cmd):
+            if os.name == 'nt':
+                try:
+                    cf = subprocess.CREATE_NO_WINDOW
+                    si = subprocess.STARTUPINFO()
+                    si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+                    si.wShowWindow = 0
+                    subprocess.check_call(cmd, creationflags=cf, startupinfo=si)
+                except Exception:
+                    subprocess.check_call(cmd)
+            else:
+                subprocess.check_call(cmd)
+
+        # Try uv first
+        try:
+            print(f"Trying to install {package_name} with uv...")
+            # Check if uv is in PATH
+            uv_cmd = "uv"
+            if shutil.which("uv") is None:
+                # Try common paths for uv
+                common_paths = [
+                    os.path.expanduser("~/.cargo/bin/uv"),
+                    os.path.expanduser("~/.local/bin/uv"),
+                    "/usr/local/bin/uv",
+                    "/usr/bin/uv"
+                ]
+                for path in common_paths:
+                    if os.path.exists(path):
+                        uv_cmd = path
+                        break
+            
+            run_cmd([uv_cmd, "pip", "install", package_name])
+            print(f"Successfully installed {package_name} with uv")
+            return
+        except (subprocess.CalledProcessError, FileNotFoundError, OSError):
+            print("uv installation failed or uv not found, falling back to pip...")
+
+        # Fallback to pip
+        try:
+            cmd = [sys.executable, "-m", "pip", "install", package_name]
+            run_cmd(cmd)
+            print(f"Successfully installed {package_name} with pip")
+        except subprocess.CalledProcessError as e:
+            print(f"Failed to install {package_name}: {e}")
+
+# Check qwen-tts at startup
+ensure_package("qwen_tts", "qwen-tts")
 
 import warnings
 
@@ -257,10 +316,14 @@ def generate_new_voice(voice_desc, text_content, language):
         
         saved_path = qwen.generate(text_content, voice_desc, output_path, language=target_lang)
         if saved_path:
+            # 返回完整的 URL 路径或者相对路径，确保前端能访问
+            # 在 API 模式下，gradio 会自动处理文件返回
             return saved_path, f"成功生成并保存到: {saved_path}"
         else:
             return None, "生成失败"
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return None, f"生成出错: {str(e)}"
     finally:
         if qwen:

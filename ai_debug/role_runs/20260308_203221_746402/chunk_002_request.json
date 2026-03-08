@@ -1,0 +1,137 @@
+{
+  "task": "按给定全局配置处理指定文本块，生成TTS脚本片段。仅输出JSON。",
+  "use_case": "无状态分块独立请求；角色和规则以全局配置为唯一来源。",
+  "global_config": {
+    "roles": [
+      {
+        "name": "旁白",
+        "description": "全文叙述者，负责环境、动作、心理描写",
+        "suggested_voice": "故事-逗叔君.wav"
+      },
+      {
+        "name": "西西",
+        "description": "原本是战彦寒的宠物猫，因偷喝可乐变成人类，保留猫的习性，懵懂软萌，偶尔傲娇",
+        "suggested_voice": "温柔女声.wav"
+      },
+      {
+        "name": "战彦寒",
+        "description": "战家掌权人，手段狠厉，对外冷漠，唯独对西西极度宠溺、维护",
+        "suggested_voice": "云浩宇.wav"
+      },
+      {
+        "name": "夏辛",
+        "description": "战彦寒的下属，性格憨厚，有点碎碎念，对主子忠心",
+        "suggested_voice": "逗宇宁.wav"
+      },
+      {
+        "name": "万灵儿",
+        "description": "战家选定的战彦寒未婚妻，娇柔乖巧，试图讨好战彦寒",
+        "suggested_voice": "逗娇娇.wav"
+      },
+      {
+        "name": "楚逸",
+        "description": "战彦寒的发小，性格跳脱搞笑，行事张扬",
+        "suggested_voice": "逗昊天.wav"
+      }
+    ],
+    "core_rules": {
+      "dialogue_rule": "角色说出的台词，归属对应角色，type=dialogue",
+      "narration_rule": "所有非台词内容，全部归属旁白，type=narration",
+      "text_limit": "每个text字段长度5-25个汉字，按语义切分，不删减原文",
+      "emotion_rule": "emotion_vector顺序[喜,怒,哀,惧,厌恶,低落,惊喜,平静]，旁白情感值≤0.5，单维度非0值范围0.1-1",
+      "speed_rule": "speaking_speed范围0.1-2.0，1.0为正常语速"
+    },
+    "total_char_count": 4044,
+    "block_count": 9
+  },
+  "current_block_id": "block_002",
+  "available_voices": [
+    "小忧伤-逗叔君.wav",
+    "逗轻语.wav",
+    "逗阿生-解说beta.wav",
+    "音色-   逗力石.wav",
+    "云小馨（影视模式）.wav",
+    "音色-   逗微瑕.wav",
+    "翠萍东北妞.wav",
+    "音色-  东北-强势.wav",
+    "gen_20260125_132644.wav",
+    "逗嬷嬷.wav",
+    "逗润年.wav",
+    "逗子涵.wav",
+    "云小馨.wav",
+    "音色-   逗立给.wav",
+    "新云浩宇(影视模式).wav",
+    "逗娇娇.wav",
+    "音色-   逗顺妞.wav",
+    "云浩宇（影视模式.wav",
+    "逗报声.wav",
+    "逗若雪.wav",
+    "逗泽齐.wav",
+    "故事-逗叔君.wav",
+    "逗芷若.wav",
+    "云浩宇.wav",
+    "逗宇宁.wav",
+    "逗明轩‌.wav",
+    "温柔女声.wav",
+    "夹子音女13.MP3",
+    "音色-  主妇-淑娟.wav",
+    "音色-    逗超鸣.wav",
+    "音色-   逗超腾.wav",
+    "老妇人.wav",
+    "音色-   逗天麟.wav",
+    "音色-   逗上峰.wav",
+    "逗昊天.wav",
+    "音色-   逗超幼.wav",
+    "音色-   逗杨飞.wav",
+    "音色-逗达叔.wav",
+    "音色-   逗超岚.wav",
+    "逗达叔（影视模式）.wav"
+  ],
+  "rules": {
+    "keep_text_exact": true,
+    "forbid_random_char_split": true,
+    "must_use_global_roles_only": true,
+    "no_role_switch_in_dialogue": true,
+    "emotion_vector_order": [
+      "喜",
+      "怒",
+      "哀",
+      "惧",
+      "厌恶",
+      "低落",
+      "惊喜",
+      "平静"
+    ],
+    "speaking_speed_range": [
+      0.1,
+      2.0
+    ]
+  },
+  "chunk_offset": {
+    "start": 1425,
+    "end": 2232
+  },
+  "current_block_text": "他就把我养在蓝泽园寸步不离\r\n奶奶您把天灾人祸怪在一只猫身上\r\n战彦寒脸色一沉\r\n就因为这个您差点打死它\r\n你母亲执迷不悟你也跟着疯\r\n老夫人叹气\r\n立刻把猫送走\r\n战彦寒周身戾气暴涨\r\n一字一顿\r\n我要是不肯呢\r\n老夫人一噎\r\n战彦寒二十二岁接管家族\r\n短短一年资产翻了三倍\r\n手段狠厉\r\n连长辈都忌惮三分\r\n她强压怒火\r\n不送走也行\r\n那就早点和灵儿完婚\r\n灵儿\r\n万灵儿乖巧进门娇羞低头\r\n彦寒灵儿\r\n今天彦寒不去公司\r\n你在蓝泽园好好陪他\r\n老夫人说完就走\r\n根本不给战彦寒拒绝的机会\r\n刺鼻的香水味呛醒了我\r\n喵呜\r\n战彦寒温柔地抚摸我的头\r\n却发现我像刚被捡回来时一样\r\n浑身发抖\r\n拼命往他怀里钻\r\n万灵儿脸色一僵\r\n为了讨好战彦寒\r\n只能硬着头皮伸手\r\n西西来让我抱抱\r\n话音刚落\r\n我抖得更厉害了\r\n战彦寒眼神幽深地看向万灵儿\r\n万灵儿干笑\r\n西西好像怕生\r\n战彦寒眼睛眯成一条线\r\n盯得万灵儿心虚低头\r\n突然门外传来一阵骚动\r\n老四听说你猫丢了\r\n动静闹得震动海城\r\n我又给你买了一只\r\n发小楚逸顶着一头黄毛\r\n穿着荧光粉衬衫和夸张的哈伦裤\r\n风风火火闯了进来\r\n怀里还抱着一只白猫\r\n话没说完\r\n他就看见了战彦寒怀里的我\r\n我慵懒地白了他一眼\r\n愚蠢的人类\r\n本尊什么时候丢过\r\n楚逸瞪大眼\r\n卧槽这猫什么眼神\r\n跟战彦寒一个德行\r\n战彦寒皱眉\r\n没事你可以走了\r\n我怕你伤心\r\n一大早去找了一只一模一样的\r\n楚逸气结\r\n既然找到了\r\n就把我家这只公的留下\r\n跟你的配一对\r\n生窝崽子回回血\r\n这猫贼贵\r\n我连名字都起好了叫东东\r\n配对\r\n我在战彦寒怀里一蹬\r\n滋溜跳下来\r\n围着楚逸炸毛怒吼\r\n喵呜\r\n你瞎吗\r\n那只鸳鸯眼丑成那样也配得上本尊\r\n战彦寒看着炸毛的我嘴角微勾\r\n伸手摸了摸我的头\r\n我瞬间收声乖巧地钻回他怀里\r\n楚逸一脸吃了屎的表情\r\n现在猫仗人势都这么拽\r\n老四\r\n困了睡觉",
+  "output_format": {
+    "block_id": "block_002",
+    "segments": [
+      {
+        "text": "…",
+        "role": "旁白",
+        "type": "narration",
+        "emotion": "中性",
+        "emotion_vector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speaking_speed": 1.0
+      }
+    ]
+  }
+}

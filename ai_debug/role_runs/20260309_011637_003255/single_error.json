@@ -1,0 +1,4 @@
+{
+  "error": "400 Client Error: Bad Request for url: https://ark.cn-beijing.volces.com/api/v3/responses",
+  "stack_trace": "Traceback (most recent call last):\n  File \"H:\\index-tts-2-6G-0914\\index-tts-2\\src\\ui\\app.py\", line 4102, in analyze_in_background\n    response.raise_for_status()\n  File \"H:\\index-tts-2-6G-0914\\index-tts-2\\venv\\lib\\site-packages\\requests\\models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://ark.cn-beijing.volces.com/api/v3/responses\n"
+}

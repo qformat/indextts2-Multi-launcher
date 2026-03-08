@@ -1,0 +1,3042 @@
+{
+  "task": "按block_id顺序合并并做全局校验，仅输出JSON。",
+  "global_config": {
+    "roles": [
+      {
+        "name": "旁白",
+        "description": "全文叙述者，负责环境、动作、心理描写",
+        "suggested_voice": "故事-逗叔君.wav"
+      },
+      {
+        "name": "西西",
+        "description": "原本是战彦寒的宠物猫，因偷喝可乐变成人类，保留猫的习性，懵懂软萌，偶尔傲娇",
+        "suggested_voice": "温柔女声.wav"
+      },
+      {
+        "name": "战彦寒",
+        "description": "战家掌权人，手段狠厉，对外冷漠，唯独对西西极度宠溺、维护",
+        "suggested_voice": "云浩宇.wav"
+      },
+      {
+        "name": "夏辛",
+        "description": "战彦寒的下属，性格憨厚，有点碎碎念，对主子忠心",
+        "suggested_voice": "逗宇宁.wav"
+      },
+      {
+        "name": "万灵儿",
+        "description": "战家选定的战彦寒未婚妻，娇柔乖巧，试图讨好战彦寒",
+        "suggested_voice": "逗娇娇.wav"
+      },
+      {
+        "name": "楚逸",
+        "description": "战彦寒的发小，性格跳脱搞笑，行事张扬",
+        "suggested_voice": "逗昊天.wav"
+      }
+    ],
+    "core_rules": {
+      "dialogue_rule": "角色说出的台词，归属对应角色，type=dialogue",
+      "narration_rule": "所有非台词内容，全部归属旁白，type=narration",
+      "text_limit": "每个text字段长度5-25个汉字，按语义切分，不删减原文",
+      "emotion_rule": "emotion_vector顺序[喜,怒,哀,惧,厌恶,低落,惊喜,平静]，旁白情感值≤0.5，单维度非0值范围0.1-1",
+      "speed_rule": "speaking_speed范围0.1-2.0，1.0为正常语速"
+    },
+    "total_char_count": 4044,
+    "block_count": 9
+  },
+  "blocks": [
+    {
+      "block_id": "block_001",
+      "segments": [
+        {
+          "text": "我本是一只无忧无虑的宠物猫",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "却因嘴馋偷喝了一口主人的可乐",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "没想竟从猫咪变成了人类",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "还好巧不巧的被主人战彦寒撞个正着",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "此时我裹着猫毯躺在床上",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒还以为我是哪个对家派来的诱饵",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "二话不说掐住我的脖子",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "紧张",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "眼神冷得像冰",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "你是怎么进来的",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我肚子上全是淤青",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "身上也被划得鲜血淋漓",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "手心还在冒血",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "可战彦寒根本不吃这一套",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "认定我这是为了爬床演的苦肉计",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "他满眼嫌弃",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "厌恶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "哑巴了",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "那声音冷得我直哆嗦",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我惊恐地一抬头",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒整个人都僵住了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "不是被我的美貌惊艳",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "而是因为我那双祖母绿的眼睛",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "跟他走丢的那只猫一模一样",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "但他眼底的寒意反而更重了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "谁派你来的",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "由于缺氧我的脸涨得通红",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "哀伤",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "直到眼角滑下一滴生理性的泪水",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "哀伤",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "他才像丢垃圾一样把我甩在地上",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "厌恶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我疼得浑身发抖费劲地爬起来",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "哀伤",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我不懂人类的羞耻",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "就这么光着身子拉开门往外走",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒听到楼道里的脚步声",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "烦躁地深吸一口气",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "冲过来一把将我拽回去",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "随手从衣柜扯了件衬衫丢我头上",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我被砸懵了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "委屈得眼泪啪嗒直掉，喵呜",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我本能地想求饶却发出了猫叫声",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒听我学猫叫火气更大了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "穿上衣服立马给我滚",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.2
+        },
+        {
+          "text": "我抽噎着笨拙地把衬衫套反了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "哀伤",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "临走前，我依依不舍地看了他一眼",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "却只见他满脸阴沉",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "外头雷雨交加",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒躺在床上翻来覆去睡不着",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "脑子里全是我临走前那个绝望的眼神",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "天一亮门外就传来了动静",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "四爷找到了",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "喜悦",
+          "emotion_vector": [
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "十几个保镖撑着黑伞围在他身后",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒蹲下身",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "冲着躲在草丛里的我拍手",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "西西过来",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "温和",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 0.9
+        },
+        {
+          "text": "往常我早就扑过去了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "可这次我吓得往后缩",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒脸色一沉",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我又滋溜一下钻进了草垛深处",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "四爷，西西以前不怕我的",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "今天也不让我抱",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒没理他",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "直接扒开草垛把我提溜了出来",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "他不顾脏兮兮的泥水",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "直接把我按在怀里",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "喜悦",
+          "emotion_vector": [
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我却控制不住地在他怀里瑟瑟发抖",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "这是我第一次这么怕他",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "乖不许怕",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "宠溺",
+          "emotion_vector": [
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 0.9
+        },
+        {
+          "text": "话音未落，他就在草垛里看见了那件带血的脏衬衫",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "惊喜",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "那不是昨晚那个女人的吗",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "惊讶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.6,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "怎么会在这儿",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "惊讶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.6,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "四爷要我扔了吗",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒惊愕地看了怀里的我一眼",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "惊喜",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "叫兽医",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "急切",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.2
+        },
+        {
+          "text": "兽医很快赶到",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "检查结果让战彦寒的脸色越来越难看",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "四爷，猫的腹部有淤青",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "身上有七条利器划伤的口子",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "已经发炎了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "右前爪缝了两针近期别沾水",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "兽医走后",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "夏辛看战彦寒一身泥水",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "伸手想接过我",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "四爷你去洗澡换衣服",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我来抱西西",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "谁知战彦寒侧身一避",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "你要做什么",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "夏辛一脸懵",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "自家主子这表情怎么像防贼一样",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "疑惑",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "四爷我是说你衣服脏了",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒把眉头拧成川字",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "以后离它远点别碰它",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "还有明天换个女兽医过来",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "夏辛一脸的懵逼",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "什么鬼",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "疑惑",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "西西虽然是母的",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "也不至于要让男人退避三舍吧",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "疑惑",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "那只是一只猫",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒低头",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "朝着怀里已经睡着的我看了一眼",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "喜悦",
+          "emotion_vector": [
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "今天我不去公司了",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "夏辛还没应声",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "门外就传来一阵动静",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "彦寒你说什么",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战家老夫人沉着脸走了进来",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "奶奶",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "老夫人看着他满身泥泞",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "头发上还挂着枯草",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.3,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "气得拐杖都在抖",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "你看看你现在像什么样子",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.7,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒一脸淡定",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "手还在挠我的头",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "老夫人重重吐出一口浊气",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "造孽",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "这只猫就是扫把星",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "厌恶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "自从它进门战家就没太平过",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "厌恶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战家这两年确实流年不利",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "二哥三年前坠机",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "三哥两年半前海难昏迷",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "大哥一年前车祸身亡",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒赶到时，只看到我遍体鳞伤地守在他母亲身边，从那以后",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "低落",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        }
+      ]
+    },
+    {
+      "block_id": "block_002",
+      "segments": [
+        {
+          "text": "他就把我养在蓝泽园寸步不离",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "奶奶您把天灾人祸怪在一只猫身上",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.8,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒脸色一沉",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "就因为这个您差点打死它",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.8,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "你母亲执迷不悟你也跟着疯",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "老夫人叹气，战彦寒周身戾气暴涨",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "立刻把猫送走",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒一字一顿开口",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我要是不肯呢",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.9,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 0.8
+        },
+        {
+          "text": "老夫人一噎，战彦寒二十二岁接管家族",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "短短一年资产翻了三倍，手段狠厉",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "连长辈都忌惮三分，她强压怒火",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "不送走也行，那就早点和灵儿完婚",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "灵儿，今天彦寒不去公司",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "万灵儿乖巧进门娇羞低头",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "彦寒灵儿，我来看你了",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "娇羞",
+          "emotion_vector": [
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "你在蓝泽园好好陪他",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "老夫人说完就走，根本不给战彦寒拒绝的机会",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "刺鼻的香水味呛醒了我",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "喵呜",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "恐惧",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.7,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒温柔地抚摸我的头",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "却发现我像刚被捡回来时一样",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "浑身发抖，拼命往他怀里钻",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "万灵儿脸色一僵，为了讨好战彦寒",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "只能硬着头皮伸手",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "西西来让我抱抱",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "讨好",
+          "emotion_vector": [
+            0.6,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "话音刚落，我抖得更厉害了",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒眼神幽深地看向万灵儿",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "西西好像怕生",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "心虚",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "战彦寒眼睛眯成一条线",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "盯得万灵儿心虚低头",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "突然门外传来一阵骚动",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "老四听说你猫丢了，动静闹得震动海城",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "兴奋",
+          "emotion_vector": [
+            0.8,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "我又给你买了一只",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "兴奋",
+          "emotion_vector": [
+            0.8,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "发小楚逸顶着一头黄毛",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "穿着荧光粉衬衫和夸张的哈伦裤",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "风风火火闯了进来，怀里还抱着一只白猫",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "话没说完，他就看见了战彦寒怀里的我",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "我慵懒地白了他一眼",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "愚蠢的人类，本尊什么时候丢过",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "厌恶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.1
+        },
+        {
+          "text": "楚逸瞪大眼，满脸不敢置信",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "卧槽这猫什么眼神",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "惊讶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "跟战彦寒一个德行",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "戏谑",
+          "emotion_vector": [
+            0.7,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "没事你可以走了",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "冷漠",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9
+          ],
+          "speaking_speed": 0.9
+        },
+        {
+          "text": "我怕你伤心，一大早去找了一只一模一样的",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "委屈",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "既然找到了，就把我家这只公的留下",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "期待",
+          "emotion_vector": [
+            0.7,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "跟你的配一对，生窝崽子回回血",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "兴奋",
+          "emotion_vector": [
+            0.8,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "这猫贼贵，我连名字都起好了叫东东",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "得意",
+          "emotion_vector": [
+            0.7,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "配对？我在战彦寒怀里一蹬",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "滋溜跳下来，围着楚逸炸毛怒吼",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "喵呜",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "愤怒",
+          "emotion_vector": [
+            0.0,
+            0.8,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.2
+        },
+        {
+          "text": "你瞎吗，那只鸳鸯眼丑成那样也配得上本尊",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "厌恶",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.2
+        },
+        {
+          "text": "战彦寒看着炸毛的我嘴角微勾",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "伸手摸了摸我的头，我瞬间收声乖巧地钻回他怀里",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "楚逸一脸吃了屎的表情",
+          "role": "旁白",
+          "type": "narration",
+          "emotion": "平静",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "speaking_speed": 1.0
+        },
+        {
+          "text": "现在猫仗人势都这么拽",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "无奈",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.3
+        },
+        {
+          "text": "老四，困了睡觉",
+          "role": "战彦寒",
+          "type": "dialogue",
+          "emotion": "疲惫",
+          "emotion_vector": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.7,
+            0.0,
+            0.0
+          ],
+          "speaking_speed": 1.0
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "全文内容顺序一致，无遗漏无重复",
+    "角色仅可使用global_config.roles中的名称",
+    "type只能是dialogue或narration"
+  ],
+  "output_format": {
+    "segments": [
+      {
+        "text": "…",
+        "role": "旁白",
+        "type": "narration",
+        "emotion": "中性",
+        "emotion_vector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "speaking_speed": 1.0
+      }
+    ]
+  }
+}
